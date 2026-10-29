@@ -1,0 +1,927 @@
+country,year,p_first,p_by_year
+Argentina,2026,0.9995,0.9995
+Argentina,2027,0.0,0.9995
+Argentina,2028,0.0,0.9995
+Argentina,2029,0.0,0.9995
+Argentina,2030,0.0,0.9995
+Argentina,2031,0.0,0.9995
+Argentina,2032,0.0,0.9995
+Argentina,2033,0.0,0.9995
+Argentina,2034,0.0,0.9995
+Argentina,2035,0.0,0.9995
+Argentina,2036,0.0,0.9995
+Argentina,2037,0.0,0.9995
+Argentina,2038,0.0,0.9995
+Argentina,2039,0.0,0.9995
+Argentina,2040,0.0,0.9995
+Argentina,2041,0.0,0.9995
+Argentina,2042,0.0,0.9995
+Argentina,2043,0.0,0.9995
+Argentina,2044,0.0,0.9995
+Argentina,2045,0.0,0.9995
+Argentina,2046,0.0,0.9995
+Argentina,2047,0.0,0.9995
+Argentina,2048,0.0,0.9995
+Argentina,2049,0.0,0.9995
+Argentina,2050,0.0,0.9995
+Australia,2026,0.0,0.0
+Australia,2027,0.0355,0.0355
+Australia,2028,0.231,0.2665
+Australia,2029,0.1565,0.423
+Australia,2030,0.103,0.526
+Australia,2031,0.0575,0.5835
+Australia,2032,0.049,0.6325
+Australia,2033,0.0315,0.664
+Australia,2034,0.023,0.687
+Australia,2035,0.0135,0.7005
+Australia,2036,0.012,0.7125
+Australia,2037,0.01,0.7225
+Australia,2038,0.0095,0.732
+Australia,2039,0.0085,0.7405
+Australia,2040,0.0075,0.748
+Australia,2041,0.0075,0.7555
+Australia,2042,0.0025,0.758
+Australia,2043,0.002,0.76
+Australia,2044,0.0035,0.7635
+Australia,2045,0.006,0.7695
+Australia,2046,0.0025,0.772
+Australia,2047,0.005,0.777
+Australia,2048,0.004,0.781
+Australia,2049,0.0035,0.7845
+Australia,2050,0.005,0.7895
+Bangladesh,2026,0.0,0.0
+Bangladesh,2027,0.0,0.0
+Bangladesh,2028,0.0,0.0
+Bangladesh,2029,0.016,0.016
+Bangladesh,2030,0.0395,0.0555
+Bangladesh,2031,0.0435,0.099
+Bangladesh,2032,0.049,0.148
+Bangladesh,2033,0.0525,0.2005
+Bangladesh,2034,0.038,0.2385
+Bangladesh,2035,0.032,0.2705
+Bangladesh,2036,0.034,0.3045
+Bangladesh,2037,0.024,0.3285
+Bangladesh,2038,0.017,0.3455
+Bangladesh,2039,0.0155,0.361
+Bangladesh,2040,0.018,0.379
+Bangladesh,2041,0.0175,0.3965
+Bangladesh,2042,0.015,0.4115
+Bangladesh,2043,0.008,0.4195
+Bangladesh,2044,0.0125,0.432
+Bangladesh,2045,0.007,0.439
+Bangladesh,2046,0.0055,0.4445
+Bangladesh,2047,0.009,0.4535
+Bangladesh,2048,0.006,0.4595
+Bangladesh,2049,0.009,0.4685
+Bangladesh,2050,0.0095,0.478
+Bosnia Herzegovina,2026,0.0,0.0
+Bosnia Herzegovina,2027,0.0,0.0
+Bosnia Herzegovina,2028,0.0,0.0
+Bosnia Herzegovina,2029,0.216,0.216
+Bosnia Herzegovina,2030,0.3825,0.5985
+Bosnia Herzegovina,2031,0.2785,0.877
+Bosnia Herzegovina,2032,0.103,0.98
+Bosnia Herzegovina,2033,0.0105,0.9905
+Bosnia Herzegovina,2034,0.0095,1.0
+Bosnia Herzegovina,2035,0.0,1.0
+Bosnia Herzegovina,2036,0.0,1.0
+Bosnia Herzegovina,2037,0.0,1.0
+Bosnia Herzegovina,2038,0.0,1.0
+Bosnia Herzegovina,2039,0.0,1.0
+Bosnia Herzegovina,2040,0.0,1.0
+Bosnia Herzegovina,2041,0.0,1.0
+Bosnia Herzegovina,2042,0.0,1.0
+Bosnia Herzegovina,2043,0.0,1.0
+Bosnia Herzegovina,2044,0.0,1.0
+Bosnia Herzegovina,2045,0.0,1.0
+Bosnia Herzegovina,2046,0.0,1.0
+Bosnia Herzegovina,2047,0.0,1.0
+Bosnia Herzegovina,2048,0.0,1.0
+Bosnia Herzegovina,2049,0.0,1.0
+Bosnia Herzegovina,2050,0.0,1.0
+Brazil,2026,1.0,1.0
+Brazil,2027,0.0,1.0
+Brazil,2028,0.0,1.0
+Brazil,2029,0.0,1.0
+Brazil,2030,0.0,1.0
+Brazil,2031,0.0,1.0
+Brazil,2032,0.0,1.0
+Brazil,2033,0.0,1.0
+Brazil,2034,0.0,1.0
+Brazil,2035,0.0,1.0
+Brazil,2036,0.0,1.0
+Brazil,2037,0.0,1.0
+Brazil,2038,0.0,1.0
+Brazil,2039,0.0,1.0
+Brazil,2040,0.0,1.0
+Brazil,2041,0.0,1.0
+Brazil,2042,0.0,1.0
+Brazil,2043,0.0,1.0
+Brazil,2044,0.0,1.0
+Brazil,2045,0.0,1.0
+Brazil,2046,0.0,1.0
+Brazil,2047,0.0,1.0
+Brazil,2048,0.0,1.0
+Brazil,2049,0.0,1.0
+Brazil,2050,0.0,1.0
+Bulgaria,2026,0.0165,0.0165
+Bulgaria,2027,0.746,0.7625
+Bulgaria,2028,0.101,0.8635
+Bulgaria,2029,0.0385,0.902
+Bulgaria,2030,0.0155,0.9175
+Bulgaria,2031,0.0065,0.924
+Bulgaria,2032,0.0055,0.9295
+Bulgaria,2033,0.0025,0.932
+Bulgaria,2034,0.0055,0.9375
+Bulgaria,2035,0.0025,0.94
+Bulgaria,2036,0.002,0.942
+Bulgaria,2037,0.0015,0.9435
+Bulgaria,2038,0.001,0.9445
+Bulgaria,2039,0.0,0.9445
+Bulgaria,2040,0.0,0.9445
+Bulgaria,2041,0.0015,0.946
+Bulgaria,2042,0.002,0.948
+Bulgaria,2043,0.0,0.948
+Bulgaria,2044,0.002,0.95
+Bulgaria,2045,0.001,0.951
+Bulgaria,2046,0.0,0.951
+Bulgaria,2047,0.0,0.951
+Bulgaria,2048,0.0,0.951
+Bulgaria,2049,0.0005,0.9515
+Bulgaria,2050,0.0005,0.952
+Canada,2026,0.0,0.0
+Canada,2027,0.172,0.172
+Canada,2028,0.198,0.37
+Canada,2029,0.0845,0.4545
+Canada,2030,0.049,0.5035
+Canada,2031,0.036,0.5395
+Canada,2032,0.0275,0.567
+Canada,2033,0.024,0.591
+Canada,2034,0.013,0.604
+Canada,2035,0.01,0.614
+Canada,2036,0.013,0.627
+Canada,2037,0.0095,0.6365
+Canada,2038,0.0075,0.644
+Canada,2039,0.0075,0.6515
+Canada,2040,0.0065,0.658
+Canada,2041,0.0055,0.6635
+Canada,2042,0.0035,0.667
+Canada,2043,0.006,0.673
+Canada,2044,0.002,0.675
+Canada,2045,0.0025,0.6775
+Canada,2046,0.004,0.6815
+Canada,2047,0.0035,0.685
+Canada,2048,0.005,0.69
+Canada,2049,0.005,0.695
+Canada,2050,0.003,0.698
+Chile,2026,1.0,1.0
+Chile,2027,0.0,1.0
+Chile,2028,0.0,1.0
+Chile,2029,0.0,1.0
+Chile,2030,0.0,1.0
+Chile,2031,0.0,1.0
+Chile,2032,0.0,1.0
+Chile,2033,0.0,1.0
+Chile,2034,0.0,1.0
+Chile,2035,0.0,1.0
+Chile,2036,0.0,1.0
+Chile,2037,0.0,1.0
+Chile,2038,0.0,1.0
+Chile,2039,0.0,1.0
+Chile,2040,0.0,1.0
+Chile,2041,0.0,1.0
+Chile,2042,0.0,1.0
+Chile,2043,0.0,1.0
+Chile,2044,0.0,1.0
+Chile,2045,0.0,1.0
+Chile,2046,0.0,1.0
+Chile,2047,0.0,1.0
+Chile,2048,0.0,1.0
+Chile,2049,0.0,1.0
+Chile,2050,0.0,1.0
+China,2026,0.0,0.0
+China,2027,0.0,0.0
+China,2028,0.0035,0.0035
+China,2029,0.145,0.1485
+China,2030,0.1255,0.274
+China,2031,0.121,0.395
+China,2032,0.112,0.507
+China,2033,0.0695,0.5765
+China,2034,0.062,0.6385
+China,2035,0.049,0.6875
+China,2036,0.048,0.7355
+China,2037,0.053,0.7885
+China,2038,0.0305,0.819
+China,2039,0.015,0.834
+China,2040,0.0095,0.8435
+China,2041,0.0055,0.849
+China,2042,0.007,0.856
+China,2043,0.005,0.861
+China,2044,0.0065,0.8675
+China,2045,0.0095,0.877
+China,2046,0.008,0.885
+China,2047,0.0105,0.8955
+China,2048,0.0125,0.908
+China,2049,0.013,0.921
+China,2050,0.008,0.929
+Colombia,2025,0.0,0.0
+Colombia,2026,0.9365,0.9365
+Colombia,2027,0.0205,0.957
+Colombia,2028,0.0105,0.9675
+Colombia,2029,0.007,0.9745
+Colombia,2030,0.0035,0.978
+Colombia,2031,0.0015,0.9795
+Colombia,2032,0.003,0.9825
+Colombia,2033,0.002,0.9845
+Colombia,2034,0.0015,0.986
+Colombia,2035,0.0025,0.9885
+Colombia,2036,0.001,0.9895
+Colombia,2037,0.0015,0.991
+Colombia,2038,0.0,0.991
+Colombia,2039,0.0005,0.9915
+Colombia,2040,0.0005,0.992
+Colombia,2041,0.0005,0.9925
+Colombia,2042,0.0,0.9925
+Colombia,2043,0.0005,0.993
+Colombia,2044,0.0005,0.9935
+Colombia,2045,0.0,0.9935
+Colombia,2046,0.0,0.9935
+Colombia,2047,0.0,0.9935
+Colombia,2048,0.0,0.9935
+Colombia,2049,0.0,0.9935
+Colombia,2050,0.0,0.9935
+Czechia,2026,0.0,0.0
+Czechia,2027,0.0,0.0
+Czechia,2028,0.0,0.0
+Czechia,2029,0.015,0.015
+Czechia,2030,0.046,0.061
+Czechia,2031,0.081,0.142
+Czechia,2032,0.0945,0.2365
+Czechia,2033,0.086,0.3225
+Czechia,2034,0.0565,0.379
+Czechia,2035,0.0615,0.4405
+Czechia,2036,0.0475,0.488
+Czechia,2037,0.0445,0.5325
+Czechia,2038,0.031,0.5635
+Czechia,2039,0.0305,0.594
+Czechia,2040,0.0265,0.6205
+Czechia,2041,0.0185,0.639
+Czechia,2042,0.0145,0.6535
+Czechia,2043,0.016,0.6695
+Czechia,2044,0.0115,0.681
+Czechia,2045,0.0075,0.6885
+Czechia,2046,0.008,0.6965
+Czechia,2047,0.0115,0.708
+Czechia,2048,0.006,0.714
+Czechia,2049,0.0075,0.7215
+Czechia,2050,0.0055,0.727
+Germany,2026,0.007,0.007
+Germany,2027,0.661,0.668
+Germany,2028,0.148,0.816
+Germany,2029,0.0605,0.8765
+Germany,2030,0.023,0.8995
+Germany,2031,0.0165,0.916
+Germany,2032,0.0145,0.9305
+Germany,2033,0.0075,0.938
+Germany,2034,0.004,0.942
+Germany,2035,0.007,0.949
+Germany,2036,0.004,0.953
+Germany,2037,0.004,0.957
+Germany,2038,0.002,0.959
+Germany,2039,0.0015,0.9605
+Germany,2040,0.0035,0.964
+Germany,2041,0.0025,0.9665
+Germany,2042,0.001,0.9675
+Germany,2043,0.0005,0.968
+Germany,2044,0.0,0.968
+Germany,2045,0.0,0.968
+Germany,2046,0.001,0.969
+Germany,2047,0.0005,0.9695
+Germany,2048,0.001,0.9705
+Germany,2049,0.0005,0.971
+Germany,2050,0.0,0.971
+Greece,2026,1.0,1.0
+Greece,2027,0.0,1.0
+Greece,2028,0.0,1.0
+Greece,2029,0.0,1.0
+Greece,2030,0.0,1.0
+Greece,2031,0.0,1.0
+Greece,2032,0.0,1.0
+Greece,2033,0.0,1.0
+Greece,2034,0.0,1.0
+Greece,2035,0.0,1.0
+Greece,2036,0.0,1.0
+Greece,2037,0.0,1.0
+Greece,2038,0.0,1.0
+Greece,2039,0.0,1.0
+Greece,2040,0.0,1.0
+Greece,2041,0.0,1.0
+Greece,2042,0.0,1.0
+Greece,2043,0.0,1.0
+Greece,2044,0.0,1.0
+Greece,2045,0.0,1.0
+Greece,2046,0.0,1.0
+Greece,2047,0.0,1.0
+Greece,2048,0.0,1.0
+Greece,2049,0.0,1.0
+Greece,2050,0.0,1.0
+Hungary,2026,1.0,1.0
+Hungary,2027,0.0,1.0
+Hungary,2028,0.0,1.0
+Hungary,2029,0.0,1.0
+Hungary,2030,0.0,1.0
+Hungary,2031,0.0,1.0
+Hungary,2032,0.0,1.0
+Hungary,2033,0.0,1.0
+Hungary,2034,0.0,1.0
+Hungary,2035,0.0,1.0
+Hungary,2036,0.0,1.0
+Hungary,2037,0.0,1.0
+Hungary,2038,0.0,1.0
+Hungary,2039,0.0,1.0
+Hungary,2040,0.0,1.0
+Hungary,2041,0.0,1.0
+Hungary,2042,0.0,1.0
+Hungary,2043,0.0,1.0
+Hungary,2044,0.0,1.0
+Hungary,2045,0.0,1.0
+Hungary,2046,0.0,1.0
+Hungary,2047,0.0,1.0
+Hungary,2048,0.0,1.0
+Hungary,2049,0.0,1.0
+Hungary,2050,0.0,1.0
+India,2026,0.0,0.0
+India,2027,0.0,0.0
+India,2028,0.0,0.0
+India,2029,0.027,0.027
+India,2030,0.1225,0.1495
+India,2031,0.168,0.3175
+India,2032,0.11,0.4275
+India,2033,0.0705,0.498
+India,2034,0.0555,0.5535
+India,2035,0.032,0.5855
+India,2036,0.031,0.6165
+India,2037,0.0205,0.637
+India,2038,0.018,0.655
+India,2039,0.0105,0.6655
+India,2040,0.0105,0.676
+India,2041,0.008,0.684
+India,2042,0.008,0.692
+India,2043,0.0095,0.7015
+India,2044,0.0085,0.71
+India,2045,0.004,0.714
+India,2046,0.005,0.719
+India,2047,0.0045,0.7235
+India,2048,0.006,0.7295
+India,2049,0.008,0.7375
+India,2050,0.0045,0.742
+Italy,2026,1.0,1.0
+Italy,2027,0.0,1.0
+Italy,2028,0.0,1.0
+Italy,2029,0.0,1.0
+Italy,2030,0.0,1.0
+Italy,2031,0.0,1.0
+Italy,2032,0.0,1.0
+Italy,2033,0.0,1.0
+Italy,2034,0.0,1.0
+Italy,2035,0.0,1.0
+Italy,2036,0.0,1.0
+Italy,2037,0.0,1.0
+Italy,2038,0.0,1.0
+Italy,2039,0.0,1.0
+Italy,2040,0.0,1.0
+Italy,2041,0.0,1.0
+Italy,2042,0.0,1.0
+Italy,2043,0.0,1.0
+Italy,2044,0.0,1.0
+Italy,2045,0.0,1.0
+Italy,2046,0.0,1.0
+Italy,2047,0.0,1.0
+Italy,2048,0.0,1.0
+Italy,2049,0.0,1.0
+Italy,2050,0.0,1.0
+Japan,2026,0.0,0.0
+Japan,2027,0.0,0.0
+Japan,2028,0.0235,0.0235
+Japan,2029,0.0735,0.097
+Japan,2030,0.0675,0.1645
+Japan,2031,0.046,0.2105
+Japan,2032,0.044,0.2545
+Japan,2033,0.029,0.2835
+Japan,2034,0.0265,0.31
+Japan,2035,0.021,0.331
+Japan,2036,0.0185,0.3495
+Japan,2037,0.008,0.3575
+Japan,2038,0.0145,0.372
+Japan,2039,0.0075,0.3795
+Japan,2040,0.009,0.3885
+Japan,2041,0.008,0.3965
+Japan,2042,0.005,0.4015
+Japan,2043,0.004,0.4055
+Japan,2044,0.005,0.4105
+Japan,2045,0.0045,0.415
+Japan,2046,0.0055,0.4205
+Japan,2047,0.0045,0.425
+Japan,2048,0.005,0.43
+Japan,2049,0.001,0.431
+Japan,2050,0.0035,0.4345
+Kazakhstan,2026,0.0,0.0
+Kazakhstan,2027,0.0,0.0
+Kazakhstan,2028,0.0,0.0
+Kazakhstan,2029,0.0,0.0
+Kazakhstan,2030,0.005,0.005
+Kazakhstan,2031,0.0275,0.0325
+Kazakhstan,2032,0.041,0.0735
+Kazakhstan,2033,0.0585,0.132
+Kazakhstan,2034,0.062,0.194
+Kazakhstan,2035,0.0465,0.2405
+Kazakhstan,2036,0.049,0.2895
+Kazakhstan,2037,0.042,0.3315
+Kazakhstan,2038,0.045,0.3765
+Kazakhstan,2039,0.0265,0.403
+Kazakhstan,2040,0.0275,0.4305
+Kazakhstan,2041,0.0225,0.453
+Kazakhstan,2042,0.0185,0.4715
+Kazakhstan,2043,0.0175,0.489
+Kazakhstan,2044,0.023,0.512
+Kazakhstan,2045,0.012,0.524
+Kazakhstan,2046,0.018,0.542
+Kazakhstan,2047,0.012,0.554
+Kazakhstan,2048,0.0085,0.5625
+Kazakhstan,2049,0.009,0.5715
+Kazakhstan,2050,0.013,0.5845
+Malaysia,2026,0.0,0.0
+Malaysia,2027,0.0,0.0
+Malaysia,2028,0.0,0.0
+Malaysia,2029,0.0,0.0
+Malaysia,2030,0.0,0.0
+Malaysia,2031,0.0025,0.0025
+Malaysia,2032,0.019,0.0215
+Malaysia,2033,0.0455,0.067
+Malaysia,2034,0.063,0.13
+Malaysia,2035,0.079,0.209
+Malaysia,2036,0.079,0.288
+Malaysia,2037,0.087,0.375
+Malaysia,2038,0.078,0.453
+Malaysia,2039,0.055,0.508
+Malaysia,2040,0.0475,0.5555
+Malaysia,2041,0.0345,0.59
+Malaysia,2042,0.0405,0.6305
+Malaysia,2043,0.029,0.6595
+Malaysia,2044,0.024,0.6835
+Malaysia,2045,0.0145,0.698
+Malaysia,2046,0.022,0.72
+Malaysia,2047,0.013,0.733
+Malaysia,2048,0.012,0.745
+Malaysia,2049,0.01,0.755
+Malaysia,2050,0.01,0.765
+Mexico,2026,0.0,0.0
+Mexico,2027,0.126,0.126
+Mexico,2028,0.135,0.261
+Mexico,2029,0.0895,0.3505
+Mexico,2030,0.0685,0.419
+Mexico,2031,0.045,0.464
+Mexico,2032,0.036,0.5
+Mexico,2033,0.017,0.517
+Mexico,2034,0.023,0.54
+Mexico,2035,0.016,0.556
+Mexico,2036,0.0175,0.5735
+Mexico,2037,0.0145,0.588
+Mexico,2038,0.0075,0.5955
+Mexico,2039,0.0075,0.603
+Mexico,2040,0.0095,0.6125
+Mexico,2041,0.0055,0.618
+Mexico,2042,0.005,0.623
+Mexico,2043,0.005,0.628
+Mexico,2044,0.005,0.633
+Mexico,2045,0.008,0.641
+Mexico,2046,0.003,0.644
+Mexico,2047,0.001,0.645
+Mexico,2048,0.0015,0.6465
+Mexico,2049,0.0015,0.648
+Mexico,2050,0.0015,0.6495
+Morocco,2026,0.0,0.0
+Morocco,2027,0.0,0.0
+Morocco,2028,0.0,0.0
+Morocco,2029,0.0,0.0
+Morocco,2030,0.0,0.0
+Morocco,2031,0.0,0.0
+Morocco,2032,0.0,0.0
+Morocco,2033,0.0025,0.0025
+Morocco,2034,0.0085,0.011
+Morocco,2035,0.0185,0.0295
+Morocco,2036,0.0235,0.053
+Morocco,2037,0.023,0.076
+Morocco,2038,0.036,0.112
+Morocco,2039,0.03,0.142
+Morocco,2040,0.034,0.176
+Morocco,2041,0.021,0.197
+Morocco,2042,0.021,0.218
+Morocco,2043,0.0195,0.2375
+Morocco,2044,0.022,0.2595
+Morocco,2045,0.025,0.2845
+Morocco,2046,0.016,0.3005
+Morocco,2047,0.018,0.3185
+Morocco,2048,0.012,0.3305
+Morocco,2049,0.014,0.3445
+Morocco,2050,0.016,0.3605
+Netherlands,2026,1.0,1.0
+Netherlands,2027,0.0,1.0
+Netherlands,2028,0.0,1.0
+Netherlands,2029,0.0,1.0
+Netherlands,2030,0.0,1.0
+Netherlands,2031,0.0,1.0
+Netherlands,2032,0.0,1.0
+Netherlands,2033,0.0,1.0
+Netherlands,2034,0.0,1.0
+Netherlands,2035,0.0,1.0
+Netherlands,2036,0.0,1.0
+Netherlands,2037,0.0,1.0
+Netherlands,2038,0.0,1.0
+Netherlands,2039,0.0,1.0
+Netherlands,2040,0.0,1.0
+Netherlands,2041,0.0,1.0
+Netherlands,2042,0.0,1.0
+Netherlands,2043,0.0,1.0
+Netherlands,2044,0.0,1.0
+Netherlands,2045,0.0,1.0
+Netherlands,2046,0.0,1.0
+Netherlands,2047,0.0,1.0
+Netherlands,2048,0.0,1.0
+Netherlands,2049,0.0,1.0
+Netherlands,2050,0.0,1.0
+North Macedonia,2026,0.13,0.13
+North Macedonia,2027,0.662,0.792
+North Macedonia,2028,0.0465,0.8385
+North Macedonia,2029,0.025,0.8635
+North Macedonia,2030,0.009,0.8725
+North Macedonia,2031,0.0115,0.884
+North Macedonia,2032,0.0045,0.8885
+North Macedonia,2033,0.005,0.8935
+North Macedonia,2034,0.0045,0.898
+North Macedonia,2035,0.004,0.902
+North Macedonia,2036,0.001,0.903
+North Macedonia,2037,0.0015,0.9045
+North Macedonia,2038,0.0035,0.908
+North Macedonia,2039,0.001,0.909
+North Macedonia,2040,0.0025,0.9115
+North Macedonia,2041,0.0005,0.912
+North Macedonia,2042,0.003,0.915
+North Macedonia,2043,0.0005,0.9155
+North Macedonia,2044,0.0005,0.916
+North Macedonia,2045,0.0005,0.9165
+North Macedonia,2046,0.0,0.9165
+North Macedonia,2047,0.001,0.9175
+North Macedonia,2048,0.0,0.9175
+North Macedonia,2049,0.0005,0.918
+North Macedonia,2050,0.001,0.919
+Pakistan,2026,0.866,0.866
+Pakistan,2027,0.046,0.912
+Pakistan,2028,0.022,0.934
+Pakistan,2029,0.0065,0.9405
+Pakistan,2030,0.006,0.9465
+Pakistan,2031,0.0035,0.95
+Pakistan,2032,0.005,0.955
+Pakistan,2033,0.0015,0.9565
+Pakistan,2034,0.002,0.9585
+Pakistan,2035,0.0005,0.959
+Pakistan,2036,0.0035,0.9625
+Pakistan,2037,0.0005,0.963
+Pakistan,2038,0.001,0.964
+Pakistan,2039,0.001,0.965
+Pakistan,2040,0.0015,0.9665
+Pakistan,2041,0.0,0.9665
+Pakistan,2042,0.0,0.9665
+Pakistan,2043,0.0,0.9665
+Pakistan,2044,0.001,0.9675
+Pakistan,2045,0.001,0.9685
+Pakistan,2046,0.0005,0.969
+Pakistan,2047,0.0,0.969
+Pakistan,2048,0.0005,0.9695
+Pakistan,2049,0.0,0.9695
+Pakistan,2050,0.0,0.9695
+Poland,2026,0.0,0.0
+Poland,2027,0.0,0.0
+Poland,2028,0.044,0.044
+Poland,2029,0.1905,0.2345
+Poland,2030,0.205,0.4395
+Poland,2031,0.1365,0.576
+Poland,2032,0.0865,0.6625
+Poland,2033,0.0565,0.719
+Poland,2034,0.038,0.757
+Poland,2035,0.0285,0.7855
+Poland,2036,0.02,0.8055
+Poland,2037,0.0185,0.824
+Poland,2038,0.009,0.833
+Poland,2039,0.01,0.843
+Poland,2040,0.0065,0.8495
+Poland,2041,0.0045,0.854
+Poland,2042,0.005,0.859
+Poland,2043,0.006,0.865
+Poland,2044,0.0045,0.8695
+Poland,2045,0.0035,0.873
+Poland,2046,0.0035,0.8765
+Poland,2047,0.002,0.8785
+Poland,2048,0.003,0.8815
+Poland,2049,0.0025,0.884
+Poland,2050,0.002,0.886
+Puerto Rico,2026,0.0,0.0
+Puerto Rico,2027,0.0,0.0
+Puerto Rico,2028,0.0,0.0
+Puerto Rico,2029,0.0,0.0
+Puerto Rico,2030,0.0,0.0
+Puerto Rico,2031,0.0,0.0
+Puerto Rico,2032,0.0,0.0
+Puerto Rico,2033,0.0,0.0
+Puerto Rico,2034,0.001,0.001
+Puerto Rico,2035,0.0,0.001
+Puerto Rico,2036,0.0005,0.0015
+Puerto Rico,2037,0.002,0.0035
+Puerto Rico,2038,0.0035,0.007
+Puerto Rico,2039,0.004,0.011
+Puerto Rico,2040,0.006,0.017
+Puerto Rico,2041,0.0065,0.0235
+Puerto Rico,2042,0.0075,0.031
+Puerto Rico,2043,0.0095,0.0405
+Puerto Rico,2044,0.008,0.0485
+Puerto Rico,2045,0.006,0.0545
+Puerto Rico,2046,0.0095,0.064
+Puerto Rico,2047,0.009,0.073
+Puerto Rico,2048,0.0085,0.0815
+Puerto Rico,2049,0.0085,0.09
+Puerto Rico,2050,0.0055,0.0955
+Romania,2026,1.0,1.0
+Romania,2027,0.0,1.0
+Romania,2028,0.0,1.0
+Romania,2029,0.0,1.0
+Romania,2030,0.0,1.0
+Romania,2031,0.0,1.0
+Romania,2032,0.0,1.0
+Romania,2033,0.0,1.0
+Romania,2034,0.0,1.0
+Romania,2035,0.0,1.0
+Romania,2036,0.0,1.0
+Romania,2037,0.0,1.0
+Romania,2038,0.0,1.0
+Romania,2039,0.0,1.0
+Romania,2040,0.0,1.0
+Romania,2041,0.0,1.0
+Romania,2042,0.0,1.0
+Romania,2043,0.0,1.0
+Romania,2044,0.0,1.0
+Romania,2045,0.0,1.0
+Romania,2046,0.0,1.0
+Romania,2047,0.0,1.0
+Romania,2048,0.0,1.0
+Romania,2049,0.0,1.0
+Romania,2050,0.0,1.0
+Russia,2026,0.0,0.0
+Russia,2027,0.0,0.0
+Russia,2028,0.0,0.0
+Russia,2029,0.004,0.004
+Russia,2030,0.047,0.051
+Russia,2031,0.0875,0.1385
+Russia,2032,0.0755,0.214
+Russia,2033,0.062,0.276
+Russia,2034,0.0585,0.3345
+Russia,2035,0.042,0.3765
+Russia,2036,0.0425,0.419
+Russia,2037,0.0255,0.4445
+Russia,2038,0.0255,0.47
+Russia,2039,0.0135,0.4835
+Russia,2040,0.0135,0.497
+Russia,2041,0.018,0.515
+Russia,2042,0.012,0.527
+Russia,2043,0.01,0.537
+Russia,2044,0.006,0.543
+Russia,2045,0.007,0.55
+Russia,2046,0.006,0.556
+Russia,2047,0.008,0.564
+Russia,2048,0.008,0.572
+Russia,2049,0.0075,0.5795
+Russia,2050,0.007,0.5865
+Slovenia,2026,0.8255,0.8255
+Slovenia,2027,0.0335,0.859
+Slovenia,2028,0.0175,0.8765
+Slovenia,2029,0.01,0.8865
+Slovenia,2030,0.0095,0.896
+Slovenia,2031,0.0045,0.9005
+Slovenia,2032,0.0035,0.904
+Slovenia,2033,0.004,0.908
+Slovenia,2034,0.001,0.909
+Slovenia,2035,0.002,0.911
+Slovenia,2036,0.0015,0.9125
+Slovenia,2037,0.0015,0.914
+Slovenia,2038,0.0005,0.9145
+Slovenia,2039,0.0015,0.916
+Slovenia,2040,0.0005,0.9165
+Slovenia,2041,0.0015,0.918
+Slovenia,2042,0.001,0.919
+Slovenia,2043,0.001,0.92
+Slovenia,2044,0.0005,0.9205
+Slovenia,2045,0.001,0.9215
+Slovenia,2046,0.001,0.9225
+Slovenia,2047,0.0005,0.923
+Slovenia,2048,0.0,0.923
+Slovenia,2049,0.0,0.923
+Slovenia,2050,0.0005,0.9235
+South Africa,2026,0.0,0.0
+South Africa,2027,0.0,0.0
+South Africa,2028,0.0,0.0
+South Africa,2029,0.0015,0.0015
+South Africa,2030,0.012,0.0135
+South Africa,2031,0.0435,0.057
+South Africa,2032,0.062,0.119
+South Africa,2033,0.0595,0.1785
+South Africa,2034,0.0515,0.23
+South Africa,2035,0.0445,0.2745
+South Africa,2036,0.039,0.3135
+South Africa,2037,0.0305,0.344
+South Africa,2038,0.0295,0.3735
+South Africa,2039,0.0205,0.394
+South Africa,2040,0.0225,0.4165
+South Africa,2041,0.0145,0.431
+South Africa,2042,0.014,0.445
+South Africa,2043,0.016,0.461
+South Africa,2044,0.014,0.475
+South Africa,2045,0.0115,0.4865
+South Africa,2046,0.006,0.4925
+South Africa,2047,0.009,0.5015
+South Africa,2048,0.0095,0.511
+South Africa,2049,0.0085,0.5195
+South Africa,2050,0.0085,0.528
+South Korea,2026,0.0,0.0
+South Korea,2027,0.0,0.0
+South Korea,2028,0.0,0.0
+South Korea,2029,0.0015,0.0015
+South Korea,2030,0.022,0.0235
+South Korea,2031,0.0725,0.096
+South Korea,2032,0.122,0.218
+South Korea,2033,0.1435,0.3615
+South Korea,2034,0.1275,0.489
+South Korea,2035,0.089,0.578
+South Korea,2036,0.077,0.655
+South Korea,2037,0.046,0.701
+South Korea,2038,0.04,0.741
+South Korea,2039,0.0325,0.7735
+South Korea,2040,0.0245,0.798
+South Korea,2041,0.0155,0.8135
+South Korea,2042,0.0135,0.827
+South Korea,2043,0.0145,0.8415
+South Korea,2044,0.0065,0.848
+South Korea,2045,0.0085,0.8565
+South Korea,2046,0.009,0.8655
+South Korea,2047,0.007,0.8725
+South Korea,2048,0.0075,0.88
+South Korea,2049,0.003,0.883
+South Korea,2050,0.0075,0.8905
+Taiwan (China),2026,0.0,0.0
+Taiwan (China),2027,0.0,0.0
+Taiwan (China),2028,0.004,0.004
+Taiwan (China),2029,0.08,0.084
+Taiwan (China),2030,0.177,0.261
+Taiwan (China),2031,0.1845,0.4455
+Taiwan (China),2032,0.1525,0.598
+Taiwan (China),2033,0.0925,0.6905
+Taiwan (China),2034,0.0655,0.756
+Taiwan (China),2035,0.048,0.804
+Taiwan (China),2036,0.037,0.841
+Taiwan (China),2037,0.022,0.863
+Taiwan (China),2038,0.0175,0.8805
+Taiwan (China),2039,0.0155,0.896
+Taiwan (China),2040,0.0115,0.9075
+Taiwan (China),2041,0.0075,0.915
+Taiwan (China),2042,0.009,0.924
+Taiwan (China),2043,0.0065,0.9305
+Taiwan (China),2044,0.0065,0.937
+Taiwan (China),2045,0.004,0.941
+Taiwan (China),2046,0.003,0.944
+Taiwan (China),2047,0.0025,0.9465
+Taiwan (China),2048,0.0015,0.948
+Taiwan (China),2049,0.0035,0.9515
+Taiwan (China),2050,0.003,0.9545
+Thailand,2026,0.0005,0.0005
+Thailand,2027,0.333,0.3335
+Thailand,2028,0.2375,0.571
+Thailand,2029,0.103,0.674
+Thailand,2030,0.061,0.735
+Thailand,2031,0.0395,0.7745
+Thailand,2032,0.0285,0.803
+Thailand,2033,0.022,0.825
+Thailand,2034,0.0135,0.8385
+Thailand,2035,0.0125,0.851
+Thailand,2036,0.0115,0.8625
+Thailand,2037,0.0095,0.872
+Thailand,2038,0.008,0.88
+Thailand,2039,0.0045,0.8845
+Thailand,2040,0.004,0.8885
+Thailand,2041,0.008,0.8965
+Thailand,2042,0.004,0.9005
+Thailand,2043,0.005,0.9055
+Thailand,2044,0.0015,0.907
+Thailand,2045,0.003,0.91
+Thailand,2046,0.001,0.911
+Thailand,2047,0.0015,0.9125
+Thailand,2048,0.0035,0.916
+Thailand,2049,0.0015,0.9175
+Thailand,2050,0.002,0.9195
+The Philippines,2026,0.0,0.0
+The Philippines,2027,0.0,0.0
+The Philippines,2028,0.0,0.0
+The Philippines,2029,0.0405,0.0405
+The Philippines,2030,0.23,0.2705
+The Philippines,2031,0.211,0.4815
+The Philippines,2032,0.132,0.6135
+The Philippines,2033,0.0745,0.688
+The Philippines,2034,0.0525,0.7405
+The Philippines,2035,0.0235,0.764
+The Philippines,2036,0.019,0.783
+The Philippines,2037,0.0205,0.8035
+The Philippines,2038,0.013,0.8165
+The Philippines,2039,0.0105,0.827
+The Philippines,2040,0.005,0.832
+The Philippines,2041,0.007,0.839
+The Philippines,2042,0.0055,0.8445
+The Philippines,2043,0.005,0.8495
+The Philippines,2044,0.006,0.8555
+The Philippines,2045,0.0025,0.858
+The Philippines,2046,0.0045,0.8625
+The Philippines,2047,0.004,0.8665
+The Philippines,2048,0.002,0.8685
+The Philippines,2049,0.002,0.8705
+The Philippines,2050,0.001,0.8715
+Türkiye,2026,0.0,0.0
+Türkiye,2027,0.0,0.0
+Türkiye,2028,0.0065,0.0065
+Türkiye,2029,0.1715,0.178
+Türkiye,2030,0.3255,0.5035
+Türkiye,2031,0.228,0.7315
+Türkiye,2032,0.1215,0.853
+Türkiye,2033,0.059,0.912
+Türkiye,2034,0.0275,0.9395
+Türkiye,2035,0.0145,0.954
+Türkiye,2036,0.0095,0.9635
+Türkiye,2037,0.0055,0.969
+Türkiye,2038,0.0045,0.9735
+Türkiye,2039,0.0055,0.979
+Türkiye,2040,0.0005,0.9795
+Türkiye,2041,0.001,0.9805
+Türkiye,2042,0.001,0.9815
+Türkiye,2043,0.0015,0.983
+Türkiye,2044,0.0,0.983
+Türkiye,2045,0.0,0.983
+Türkiye,2046,0.0005,0.9835
+Türkiye,2047,0.0,0.9835
+Türkiye,2048,0.0,0.9835
+Türkiye,2049,0.0,0.9835
+Türkiye,2050,0.0,0.9835
+United States,2026,0.0,0.0
+United States,2027,0.2905,0.2905
+United States,2028,0.3455,0.636
+United States,2029,0.1395,0.7755
+United States,2030,0.067,0.8425
+United States,2031,0.0375,0.88
+United States,2032,0.028,0.908
+United States,2033,0.0085,0.9165
+United States,2034,0.0135,0.93
+United States,2035,0.011,0.941
+United States,2036,0.007,0.948
+United States,2037,0.0055,0.9535
+United States,2038,0.003,0.9565
+United States,2039,0.004,0.9605
+United States,2040,0.003,0.9635
+United States,2041,0.003,0.9665
+United States,2042,0.0025,0.969
+United States,2043,0.001,0.97
+United States,2044,0.003,0.973
+United States,2045,0.001,0.974
+United States,2046,0.0005,0.9745
+United States,2047,0.001,0.9755
+United States,2048,0.003,0.9785
+United States,2049,0.002,0.9805
+United States,2050,0.0,0.9805
+Viet Nam,2026,0.0,0.0
+Viet Nam,2027,0.0,0.0
+Viet Nam,2028,0.013,0.013
+Viet Nam,2029,0.054,0.067
+Viet Nam,2030,0.0745,0.1415
+Viet Nam,2031,0.089,0.2305
+Viet Nam,2032,0.0555,0.286
+Viet Nam,2033,0.054,0.34
+Viet Nam,2034,0.0435,0.3835
+Viet Nam,2035,0.029,0.4125
+Viet Nam,2036,0.0365,0.449
+Viet Nam,2037,0.0225,0.4715
+Viet Nam,2038,0.024,0.4955
+Viet Nam,2039,0.0225,0.518
+Viet Nam,2040,0.013,0.531
+Viet Nam,2041,0.01,0.541
+Viet Nam,2042,0.0115,0.5525
+Viet Nam,2043,0.0105,0.563
+Viet Nam,2044,0.009,0.572
+Viet Nam,2045,0.011,0.583
+Viet Nam,2046,0.0095,0.5925
+Viet Nam,2047,0.0085,0.601
+Viet Nam,2048,0.0075,0.6085
+Viet Nam,2049,0.007,0.6155
+Viet Nam,2050,0.006,0.6215
