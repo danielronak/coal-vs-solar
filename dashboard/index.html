@@ -1,0 +1,598 @@
+<meta name="dash-one-writer">
+<style>
+  .sc { display: flex; flex-direction: column; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); max-width: 82rem; margin-inline: auto; }
+  .sc-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+  .sc-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .sc-take { margin: 0; max-width: 72ch; font-size: var(--cds-font-size-body); line-height: 1.5; }
+  .sc .sc-take b, .sc .sc-tile b { font-weight: var(--cds-font-weight-medium); }
+  .sc-pick { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .sc-pick select, .sc-search { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); }
+  .sc-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); gap: var(--cds-gap-md); }
+  .sc-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; position: relative; display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+  .sc-tile { gap: var(--cds-gap-xs); }
+  .sc-num { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.15; }
+  .sc-label, .sc-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+  .sc-delta { font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .sc-good { color: var(--color-ok); } .sc-bad { color: var(--color-bad); } .sc-flat { color: var(--color-fg-muted); }
+  .sc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); }
+  .sc-card h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .sc-sec { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .sc-sec > h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .sc-sec > p { margin: 0; max-width: 72ch; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); line-height: 1.5; }
+  .sc-chart { position: relative; min-height: 300px; }
+  .sc-chart.sc-short { min-height: 220px; }
+  .sc-chart svg { display: block; overflow: visible; }
+  .sc-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .sc-legend span { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+  .sc-legend i { display: inline-block; width: 0.75rem; height: 0.2rem; border-radius: 2px; }
+  .sc-legend i.sc-band { height: 0.6rem; opacity: 0.35; }
+  .sc-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; font-variant-numeric: tabular-nums; }
+  .sc-tip .sc-tip-h { color: var(--cds-text-secondary); margin-bottom: 2px; }
+  .sc-tip .sc-sw { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; margin-right: 0.35rem; }
+  .sc-tablebox { max-height: 30rem; overflow: auto; }
+  .sc-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .sc-table th { position: sticky; top: 0; background: var(--color-panel); text-align: right; padding: 0; border-bottom: 1px solid var(--color-border-line); }
+  .sc-table th:first-child, .sc-table td:first-child, .sc-table th:nth-child(2), .sc-table td:nth-child(2) { text-align: left; }
+  .sc-table th button { font: inherit; color: var(--color-fg-muted); background: none; border: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; width: 100%; text-align: inherit; }
+  .sc-table th[aria-sort] button { color: var(--color-fg); }
+  .sc-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); text-align: right; }
+  .sc-table tbody tr { cursor: pointer; }
+  .sc-table tbody tr:hover td { background: var(--cds-chart-grid); }
+  .sc-table tbody tr.sc-on td { font-weight: var(--cds-font-weight-medium); }
+  .sc-hide-narrow { }
+  @container (max-width: 40rem) { .sc-hide-narrow { display: none; } }
+  .sc-tablecard { container-type: inline-size; }
+  .sc-method { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.55; max-width: 80ch; display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .sc-method p { margin: 0; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="sc">
+  <header class="sc-head" id="top">
+    <h1>Solar vs Coal</h1>
+    <div class="sc-pick">
+      <label for="sc-country">Country</label>
+      <select id="sc-country" data-draw="country" data-source="outlook" aria-label="Country"></select>
+    </div>
+    <p class="sc-take" data-variant="forecast">Over the last 12 months, solar generated <b data-draw="t-ratio" data-source="outlook" data-field="solar_to_coal">—</b> as much electricity as coal in <span data-draw="cname">—</span>. If recent trends continue, the first full year in which solar out-generates coal is most likely <b data-draw="t-median" data-source="outlook" data-field="median_year">—</b>, with an 80% range of <span data-draw="t-p10" data-source="outlook" data-field="p10_year">—</span> to <span data-draw="t-p90" data-source="outlook" data-field="p90_year">—</span>.</p>
+    <p class="sc-take" data-variant="crossed" hidden>Solar already out-generates coal in <span data-draw="cname">—</span>: over the last 12 months it produced <b data-draw="t-ratio" data-source="outlook" data-field="solar_to_coal">—</b> as much electricity as coal.</p>
+    <p class="sc-take" data-variant="none" hidden><span data-draw="cname">—</span> has no crossover to forecast: <b data-draw="t-status" data-source="outlook" data-field="status">—</b>.</p>
+  </header>
+
+  <div class="sc-tiles" id="tiles">
+    <div class="sc-card sc-tile">
+      <span class="sc-label">Coal share of electricity, last 12 months</span>
+      <span class="sc-num" data-draw="k-coal" data-source="outlook" data-field="coal_share">—</span>
+      <span class="sc-delta" data-draw="k-coal-d" data-source="share_change" data-field="coal_pp">—</span>
+    </div>
+    <div class="sc-card sc-tile">
+      <span class="sc-label">Solar share of electricity, last 12 months</span>
+      <span class="sc-num" data-draw="k-solar" data-source="outlook" data-field="solar_share">—</span>
+      <span class="sc-delta" data-draw="k-solar-d" data-source="share_change" data-field="solar_pp">—</span>
+    </div>
+    <div class="sc-card sc-tile">
+      <span class="sc-label">Chance solar is ahead of coal by 2030</span>
+      <span class="sc-num" data-draw="k-p2030" data-source="outlook" data-field="p_by_2030">—</span>
+      <span class="sc-label">share of 2,000 simulated futures</span>
+    </div>
+    <div class="sc-card sc-tile">
+      <span class="sc-label">Chance solar is ahead of coal by 2035</span>
+      <span class="sc-num" data-draw="k-p2035" data-source="outlook" data-field="p_by_2035">—</span>
+      <span class="sc-label">share of 2,000 simulated futures</span>
+    </div>
+  </div>
+
+  <section class="sc-sec" id="forecast">
+    <div class="sc-grid">
+      <div class="sc-card" id="card-generation">
+        <h3>Coal and solar generation in <span data-draw="cname">—</span></h3>
+        <p class="sc-note">Monthly, in terawatt-hours. The shaded bands are the SARIMA model's 80% and 95% prediction intervals for the next 24 months.</p>
+        <div class="sc-legend"><span><i data-draw="sw-coal"></i>Coal</span><span><i data-draw="sw-solar"></i>Solar</span><span><i class="sc-band" data-draw="sw-band"></i>Forecast interval</span></div>
+        <div class="sc-chart" id="chart-generation" data-draw="gen" data-source="generation forecast"></div>
+      </div>
+      <div class="sc-card" id="card-ratio">
+        <h3>Solar output as a multiple of coal</h3>
+        <p class="sc-note">Annual average of the monthly ratio, log scale. Above the line, solar out-generates coal. The band holds 80% of 2,000 simulated paths to 2050.</p>
+        <div class="sc-legend"><span><i data-draw="sw-ink"></i>Observed</span><span><i data-draw="sw-solar"></i>Median simulated path</span><span><i class="sc-band" data-draw="sw-band"></i>80% of paths</span></div>
+        <div class="sc-chart" id="chart-ratio" data-draw="ratio" data-source="ratio_path"></div>
+        <p class="sc-note" data-variant-note="noratio" hidden>This country has no solar-versus-coal ratio to model.</p>
+      </div>
+    </div>
+    <div class="sc-card" id="card-odds">
+      <h3>When does solar overtake coal?</h3>
+      <p class="sc-note">Bars: probability that a given year is the first full year with more solar than coal. Line: probability that it has happened by that year.</p>
+      <div class="sc-legend"><span><i data-draw="sw-muted"></i>First year ahead</span><span><i data-draw="sw-solar"></i>Ahead by this year</span></div>
+      <div class="sc-chart sc-short" id="chart-odds" data-draw="odds" data-source="crossover_odds"></div>
+    </div>
+  </section>
+
+  <section class="sc-sec" id="india-2030">
+    <h2>Is India on track for 500 GW of non-fossil capacity by 2030?</h2>
+    <p>India's target is 500 GW of installed non-fossil capacity (renewables plus nuclear) by 2030. Its growth rate has been rising, so the answer depends on whether that acceleration lasts. Two ARIMA models on log capacity encode the two views, each simulated 5,000 times.</p>
+    <div class="sc-tiles">
+      <div class="sc-card sc-tile">
+        <span class="sc-label">Chance of 500 GW if growth returns to its long-run trend</span>
+        <span class="sc-num" data-draw="k-hit" data-scenario="Long-run trend" data-source="india_target" data-field="p_hit">—</span>
+        <span class="sc-label">median in 2030: <b data-draw="k-med" data-scenario="Long-run trend" data-source="india_target" data-field="median_2030">—</b></span>
+      </div>
+      <div class="sc-card sc-tile">
+        <span class="sc-label">Chance of 500 GW if the recent acceleration continues</span>
+        <span class="sc-num" data-draw="k-hit" data-scenario="Accelerating growth" data-source="india_target" data-field="p_hit">—</span>
+        <span class="sc-label">median in 2030: <b data-draw="k-med" data-scenario="Accelerating growth" data-source="india_target" data-field="median_2030">—</b></span>
+      </div>
+      <div class="sc-card sc-tile">
+        <span class="sc-label">Annual growth needed from 2025 to 2030</span>
+        <span class="sc-num" data-draw="k-growth" data-period="Needed, 2025-2030" data-source="india_growth" data-field="cagr_pct">—</span>
+        <span class="sc-label">achieved 2015 to 2025: <b data-draw="k-growth" data-period="Achieved, 2015-2025" data-source="india_growth" data-field="cagr_pct">—</b></span>
+      </div>
+    </div>
+    <div class="sc-card" id="card-capacity">
+      <h3>India's non-fossil installed capacity</h3>
+      <p class="sc-note">Gigawatts. Lines are median paths; bands hold 80% of simulations.</p>
+      <div class="sc-legend"><span><i data-draw="sw-ink"></i>Observed</span><span><i data-draw="sw-coal"></i>Long-run trend</span><span><i data-draw="sw-solar"></i>Accelerating growth</span><span><i data-draw="sw-crit"></i>500 GW target</span></div>
+      <div class="sc-chart" id="chart-capacity" data-draw="capacity" data-source="india_capacity"></div>
+    </div>
+  </section>
+
+  <section class="sc-sec" id="countries">
+    <h2>Every country with coal in its mix</h2>
+    <p>The same pipeline, run automatically on each country with at least five years of monthly data. Select a row to explore that country above.</p>
+    <div class="sc-card sc-tablecard" id="card-table">
+      <input class="sc-search" id="sc-search" type="search" placeholder="Search countries" aria-label="Search countries">
+      <div class="sc-tablebox">
+        <table class="sc-table" id="table-league" data-source="outlook" data-row-key="country">
+          <thead><tr>
+            <th data-field="country"><button type="button" data-sort="country">Country</button></th>
+            <th data-field="status" class="sc-hide-narrow"><button type="button" data-sort="status">Status</button></th>
+            <th data-field="coal_share"><button type="button" data-sort="coal_share">Coal %</button></th>
+            <th data-field="solar_share"><button type="button" data-sort="solar_share">Solar %</button></th>
+            <th data-field="solar_to_coal"><button type="button" data-sort="solar_to_coal">Solar ÷ coal</button></th>
+            <th data-field="median_year"><button type="button" data-sort="median_year">Median year</button></th>
+            <th data-field="p_by_2030" class="sc-hide-narrow"><button type="button" data-sort="p_by_2030">P(by 2030)</button></th>
+            <th data-field="p_by_2035"><button type="button" data-sort="p_by_2035">P(by 2035)</button></th>
+          </tr></thead>
+          <tbody data-draw="league"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="sc-sec" id="calibration">
+    <h2>Can the probabilities be trusted?</h2>
+    <p>For every country, each model was refitted without its last 12 months, and we counted how many of those months fell inside the 80% prediction interval. A well-calibrated model lands near 80%. Below 80% means its intervals are too narrow; above means they are too cautious.</p>
+    <div class="sc-card" id="card-calibration">
+      <h3>Months inside the 80% interval, averaged over countries</h3>
+      <div class="sc-chart sc-short" id="chart-calibration" data-draw="calib" data-source="coverage"></div>
+    </div>
+  </section>
+
+  <section class="sc-sec" id="method">
+    <h2>Method</h2>
+    <div class="sc-method">
+      <p>Data: Ember monthly and yearly electricity data (CC-BY-4.0). Generation is modelled on the log scale, where solar's growing seasonal swing becomes additive.</p>
+      <p>Model selection has two stages. ADF and KPSS tests decide which differencing schemes give a stationary series. Within each accepted scheme, AIC picks the SARIMA lags. Rolling-origin cross-validation then picks between schemes, because AIC cannot compare models with different differencing.</p>
+      <p>Crossover: SARIMA is fitted to log(solar ÷ coal), 2,000 future paths are simulated, and the first year each path's annual mean rises above zero is recorded. The year probabilities assume recent trends continue; policy, prices or a new coal pipeline could bend them.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const num = (v) => (v === '' || v == null || v === 'null' || v === 'None') ? null : +v;
+  const enc = (s) => String(s).replace(/%/g, '%25').replace(/&/g, '%26').replace(/=/g, '%3D');
+  const country = () => dash.params().country || 'India';
+  const rowsOf = (id) => { const d = dash.data(id); return d.status === 'ok' ? d.data : null; };
+  const mine = (id) => { const r = rowsOf(id); return r ? r.filter((x) => x.country === country()) : null; };
+  const outlookRow = () => { const r = rowsOf('outlook'); return r ? r.find((x) => x.country === country()) : null; };
+  const pct1 = (v) => d3.format('.1f')(v) + '%';
+  const prob = (v) => d3.format('.0%')(v);
+  const ratioFmt = (v) => v >= 10 ? d3.format('.0f')(v) + '×' : v >= 1 ? d3.format('.2~f')(v) + '×' : d3.format('.2f')(v) + '×';
+  const css = (name) => getComputedStyle(document.querySelector('.sc')).getPropertyValue(name).trim();
+  const parseMonth = d3.utcParse('%Y-%m');
+  const TARGET_GW = 500;
+
+  const variantOf = (st) => st === 'Forecast' ? 'forecast' : st === 'Solar already ahead' ? 'crossed' : 'none';
+
+  // Calculations shown on the page
+  dash.calc('share_change', {
+    inputs: ['outlook'], title: 'Change in share vs the 12 months before',
+    description: 'Last-12-month share minus the share in the 12 months before, in percentage points.',
+    fn: (outlook) => outlook.map((r) => ({
+      country: r.country,
+      coal_pp: r.coal_share_prev === '' ? null : Math.round((+r.coal_share - +r.coal_share_prev) * 100) / 100,
+      solar_pp: r.solar_share_prev === '' ? null : Math.round((+r.solar_share - +r.solar_share_prev) * 100) / 100,
+    })),
+  });
+  dash.calc('coverage', {
+    inputs: ['calibration'], title: 'Interval coverage by series',
+    description: 'Mean share of held-out months inside the 80% prediction interval, over all countries.',
+    fn: (calibration) => {
+      const by = {};
+      for (const r of calibration) { (by[r.series] = by[r.series] || []).push(+r.inside_80); }
+      return Object.entries(by).map(([series, v]) => ({ series, countries: v.length, inside_80: Math.round(v.reduce((a, b) => a + b, 0) / v.length * 1000) / 1000 }));
+    },
+  });
+
+  // Show the sentence and notes that fit the chosen country (runs before the drawings)
+  dash.onData(() => {
+    const row = outlookRow();
+    const v = row ? variantOf(row.status) : null;
+    document.querySelectorAll('[data-variant]').forEach((e) => { e.hidden = !(v && e.dataset.variant === v); });
+    const hasRatio = !!row && (row.status === 'Forecast' || row.status === 'Solar already ahead');
+    document.querySelectorAll('#card-odds').forEach((e) => { e.hidden = !hasRatio; });
+    document.querySelectorAll('#chart-ratio').forEach((e) => { e.hidden = !hasRatio; });
+    document.querySelectorAll('[data-variant-note="noratio"]').forEach((e) => { e.hidden = hasRatio; });
+    document.querySelectorAll('.sc-table tbody tr').forEach((tr) => tr.classList.toggle('sc-on', tr.dataset.key === country()));
+  });
+
+  // Country picker
+  dash.draw('country', (sel) => {
+    const r = rowsOf('outlook');
+    sel.replaceChildren(...(r || []).map((x) => new Option(x.country, x.country)));
+    sel.value = country();
+    sel.onchange = () => { dash.setParams({ country: sel.value }); };
+  });
+  dash.draw('cname', (el) => { el.textContent = country(); });
+
+  // Values tied to the chosen country's row in a dataset
+  const cell = (name, source, fmt, pick = () => mine(source)?.[0]) => dash.draw(name, (el) => {
+    el.dataset.where = 'country=' + enc(country());
+    const row = pick();
+    const v = row ? row[el.dataset.field] : undefined;
+    el.classList.remove('sc-good', 'sc-bad', 'sc-flat');
+    if (v === undefined) { el.textContent = '—'; return; }
+    el.textContent = fmt(v, el);
+  });
+  cell('t-ratio', 'outlook', (v) => num(v) == null ? '—' : ratioFmt(num(v)));
+  cell('t-median', 'outlook', (v) => num(v) == null ? 'after 2050' : d3.format('d')(num(v)));
+  cell('t-p10', 'outlook', (v) => num(v) == null ? 'after 2050' : d3.format('d')(num(v)));
+  cell('t-p90', 'outlook', (v) => num(v) == null ? 'after 2050' : d3.format('d')(num(v)));
+  cell('t-status', 'outlook', (v) => String(v).toLowerCase());
+  cell('k-coal', 'outlook', (v) => pct1(num(v)));
+  cell('k-solar', 'outlook', (v) => pct1(num(v)));
+  cell('k-p2030', 'outlook', (v) => num(v) == null ? 'n/a' : prob(num(v)));
+  cell('k-p2035', 'outlook', (v) => num(v) == null ? 'n/a' : prob(num(v)));
+  const delta = (goodWhenUp) => (v, el) => {
+    const d = num(v);
+    if (d == null) return '—';
+    const good = goodWhenUp ? d > 0 : d < 0;
+    el.classList.add(Math.abs(d) < 0.05 ? 'sc-flat' : good ? 'sc-good' : 'sc-bad');
+    return (d > 0 ? '+' : d < 0 ? '−' : '±') + d3.format('.1f')(Math.abs(d)) + ' points vs the 12 months before';
+  };
+  cell('k-coal-d', 'share_change', delta(false));
+  cell('k-solar-d', 'share_change', delta(true));
+
+  // India target tiles (rows picked by scenario / period, not by country)
+  const byKey = (name, source, key, attr, fmt) => dash.draw(name, (el) => {
+    const want = el.dataset[attr];
+    el.dataset.where = key + '=' + enc(want);
+    const r = rowsOf(source);
+    const row = r ? r.find((x) => x[key] === want) : null;
+    el.textContent = row ? fmt(num(row[el.dataset.field])) : '—';
+  });
+  byKey('k-hit', 'india_target', 'scenario', 'scenario', (v) => prob(v));
+  byKey('k-med', 'india_target', 'scenario', 'scenario', (v) => d3.format(',.0f')(v) + ' GW');
+  byKey('k-growth', 'india_growth', 'period', 'period', (v) => d3.format('.1f')(v) + '% a year');
+
+  // Legend swatches take the series colours
+  const sw = (name, color, band) => dash.draw(name, (el) => { el.style.background = color(); });
+  sw('sw-coal', () => dash.colors[0]);
+  sw('sw-solar', () => dash.colors[1]);
+  sw('sw-band', () => dash.colors[1]);
+  sw('sw-ink', () => css('--color-fg'));
+  sw('sw-muted', () => css('--cds-chart-muted'));
+  sw('sw-crit', () => css('--cds-chart-status-critical'));
+
+  // ---------- chart helpers
+  const measure = (svg, labels) => {
+    const t = svg.append('text').attr('font-size', css('--cds-font-size-caption') || '12px');
+    let w = 0;
+    for (const s of labels) { t.text(s); w = Math.max(w, t.node().getComputedTextLength()); }
+    t.remove();
+    return w;
+  };
+  const frame = (el, h) => {
+    el.replaceChildren();
+    const W = Math.max(280, el.clientWidth || 600);
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${h}`).attr('height', h)
+      .style('font-family', 'var(--font-anthropic-sans)');
+    const tip = d3.select(el).append('div').attr('class', 'sc-tip').style('display', 'none');
+    return { W, svg, tip };
+  };
+  const yAxis = (g, y, W, m, fmt, ticks = 5) => {
+    g.append('g').attr('transform', `translate(${m.l},0)`)
+      .call(d3.axisLeft(y).ticks(ticks, fmt).tickSize(-(W - m.l - m.r)).tickPadding(6))
+      .call((a) => a.attr('font-size', null).attr('font-family', null))
+      .call((a) => a.select('.domain').remove())
+      .call((a) => a.selectAll('line').attr('stroke', 'var(--cds-chart-grid)'))
+      .call((a) => a.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'));
+  };
+  const xAxis = (g, x, H, m, ticks, fmt) => {
+    g.append('g').attr('transform', `translate(0,${H - m.b})`)
+      .call(d3.axisBottom(x).ticks(ticks).tickFormat(fmt).tickSizeOuter(0))
+      .call((a) => a.attr('font-size', null).attr('font-family', null))
+      .call((a) => a.select('.domain').attr('stroke', 'var(--cds-chart-axis)'))
+      .call((a) => a.selectAll('line').attr('stroke', 'var(--cds-chart-axis)'))
+      .call((a) => a.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'));
+  };
+  const showTip = (el, tip, x, y, header, lines) => {
+    tip.style('display', null).html('');
+    tip.append('div').attr('class', 'sc-tip-h').text(header);
+    for (const [color, label, value] of lines) {
+      const d = tip.append('div');
+      if (color) d.append('span').attr('class', 'sc-sw').style('background', color);
+      d.append('span').text(label + ' ' + value);
+    }
+    const box = el.getBoundingClientRect(), tw = tip.node().offsetWidth;
+    tip.style('left', Math.max(0, Math.min(x + 12, box.width - tw)) + 'px').style('top', Math.max(0, y - 10) + 'px');
+  };
+  const band = (g, data, x, y, lo, hi, color, op) => g.append('path').datum(data)
+    .attr('d', d3.area().x((d) => x(d.d)).y0((d) => y(d[lo])).y1((d) => y(d[hi])))
+    .attr('fill', color).attr('fill-opacity', op).attr('stroke', 'none');
+  const line = (g, data, x, y, key, color, dash_) => g.append('path').datum(data.filter((d) => d[key] != null))
+    .attr('d', d3.line().x((d) => x(d.d)).y((d) => y(d[key])))
+    .attr('fill', 'none').attr('stroke', color).attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round')
+    .attr('stroke-dasharray', dash_ || null);
+
+  // ---------- coal & solar with forecast
+  dash.draw('gen', (el) => {
+    const g = mine('generation'), f = mine('forecast');
+    if (!g || !g.length) { el.replaceChildren(); return; }
+    const H = 300;
+    const { W, svg, tip } = frame(el, H);
+    const hist = g.map((r) => ({ d: parseMonth(r.month), coal: num(r.coal), solar: num(r.solar) }));
+    const fc = { coal: [], solar: [] };
+    for (const r of f || []) fc[r.source]?.push({ d: parseMonth(r.month), mid: num(r.mid), lo80: num(r.lo80), hi80: num(r.hi80), lo95: num(r.lo95), hi95: num(r.hi95) });
+    const all = hist.map((d) => d.d).concat(fc.coal.map((d) => d.d), fc.solar.map((d) => d.d));
+    const ymax = d3.max([...hist.flatMap((d) => [d.coal, d.solar]), ...fc.coal.map((d) => d.hi95), ...fc.solar.map((d) => d.hi95)].filter((v) => v != null));
+    const y = d3.scaleLinear([0, ymax * 1.05], [H - 26, 10]).nice();
+    const tickLabels = y.ticks(5).map((t) => d3.format(',')(t));
+    const lastC = hist.filter((d) => d.coal != null).at(-1), lastS = hist.filter((d) => d.solar != null).at(-1);
+    const endC = fc.coal.length ? fc.coal.at(-1).mid : lastC?.coal, endS = fc.solar.length ? fc.solar.at(-1).mid : lastS?.solar;
+    const endLabels = [`Coal ${d3.format(',.1f')(endC ?? 0)}`, `Solar ${d3.format(',.1f')(endS ?? 0)}`];
+    const m = { t: 10, b: 26, l: measure(svg, tickLabels) + 10, r: measure(svg, endLabels) + 12 };
+    const x = d3.scaleUtc(d3.extent(all), [m.l, W - m.r]);
+    const root = svg.append('g');
+    yAxis(root, y, W, m, ',');
+    xAxis(root, x, H, m, Math.max(3, Math.floor((W - m.l - m.r) / 90)), d3.utcFormat('%Y'));
+    const col = { coal: dash.colors[0], solar: dash.colors[1] };
+    for (const s of ['coal', 'solar']) {
+      if (fc[s].length) {
+        band(root, fc[s], x, y, 'lo95', 'hi95', col[s], 0.1);
+        band(root, fc[s], x, y, 'lo80', 'hi80', col[s], 0.22);
+      }
+    }
+    for (const s of ['coal', 'solar']) {
+      line(root, hist, x, y, s, col[s]);
+      if (fc[s].length) {
+        const last = hist.filter((d) => d[s] != null).at(-1);
+        line(root, [{ d: last.d, mid: last[s] }, ...fc[s]], x, y, 'mid', col[s], '4 3');
+      }
+    }
+    // end labels, kept apart
+    const ends = [['Coal', endC, col.coal], ['Solar', endS, col.solar]].filter((e) => e[1] != null).map((e) => ({ name: e[0], v: e[1], c: e[2], y: y(e[1]) }));
+    ends.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 14) ends[i].y = ends[i - 1].y + 14;
+    for (const e of ends) {
+      root.append('text').attr('x', W - m.r + 6).attr('y', e.y).attr('dy', '0.32em').attr('fill', 'var(--color-fg)')
+        .style('font-size', 'var(--cds-font-size-caption)').text(`${e.name} ${d3.format(',.1f')(e.v)}`);
+    }
+    // hover
+    const rule = root.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-reference)').style('display', 'none');
+    const dots = root.append('g');
+    const byDate = new Map();
+    for (const d of hist) byDate.set(+d.d, { d: d.d, coal: d.coal, solar: d.solar, kind: 'observed' });
+    for (const s of ['coal', 'solar']) for (const d of fc[s]) {
+      const o = byDate.get(+d.d) || { d: d.d, kind: 'forecast' };
+      o[s] = d.mid; o[s + '_lo'] = d.lo80; o[s + '_hi'] = d.hi80; byDate.set(+d.d, o);
+    }
+    const pts = [...byDate.values()].sort((a, b) => a.d - b.d);
+    const bis = d3.bisector((d) => d.d).center;
+    root.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev);
+        const p = pts[bis(pts, x.invert(px))];
+        rule.style('display', null).attr('x1', x(p.d)).attr('x2', x(p.d));
+        dots.selectAll('circle').data(['coal', 'solar'].filter((s) => p[s] != null)).join('circle')
+          .attr('cx', x(p.d)).attr('cy', (s) => y(p[s])).attr('r', 4).attr('fill', (s) => col[s]).attr('stroke', 'var(--color-panel)').attr('stroke-width', 2);
+        const fmtV = (s) => p.kind === 'forecast' ? `${d3.format(',.1f')(p[s])} TWh (80%: ${d3.format(',.0f')(p[s + '_lo'])}–${d3.format(',.0f')(p[s + '_hi'])})` : `${d3.format(',.1f')(p[s])} TWh`;
+        showTip(el, tip, px, py, d3.utcFormat('%b %Y')(p.d) + (p.kind === 'forecast' ? ' · forecast' : ''),
+          ['coal', 'solar'].filter((s) => p[s] != null).map((s) => [col[s], s === 'coal' ? 'Coal' : 'Solar', fmtV(s)]));
+      })
+      .on('pointerleave', () => { rule.style('display', 'none'); dots.selectAll('*').remove(); tip.style('display', 'none'); });
+  });
+
+  // ---------- solar / coal ratio path
+  dash.draw('ratio', (el) => {
+    const r = mine('ratio_path');
+    if (!r || !r.length) { el.replaceChildren(); return; }
+    const H = 300;
+    const { W, svg, tip } = frame(el, H);
+    const parseY = (v) => new Date(Date.UTC(+v, 6, 1));
+    const obs = r.filter((d) => d.kind === 'observed').map((d) => ({ d: parseY(d.year), year: +d.year, v: num(d.ratio) }));
+    const sim = r.filter((d) => d.kind === 'simulated').map((d) => ({ d: parseY(d.year), year: +d.year, v: num(d.ratio), lo: num(d.p10), hi: num(d.p90) }));
+    const vals = [...obs.map((d) => d.v), ...sim.flatMap((d) => [d.lo, d.hi])].filter((v) => v > 0);
+    const lo = Math.max(1e-3, Math.min(d3.min(vals), 1) / 1.5), hi = Math.min(1e3, Math.max(d3.max(vals), 1) * 1.5);
+    const y = d3.scaleLog([lo, hi], [H - 26, 10]);
+    const ticks = y.ticks(6).filter((t) => [1, 2, 5].includes(+String(t.toExponential()).split('e')[0]));
+    const m = { t: 10, b: 26, l: measure(svg, ticks.map(ratioFmt)) + 10, r: 12 };
+    const x = d3.scaleUtc([parseY(d3.min(obs, (d) => d.year)), parseY(d3.max(sim.length ? sim : obs, (d) => d.year))], [m.l, W - m.r]);
+    const root = svg.append('g');
+    root.append('g').attr('transform', `translate(${m.l},0)`)
+      .call(d3.axisLeft(y).tickValues(ticks).tickFormat(ratioFmt).tickSize(-(W - m.l - m.r)).tickPadding(6))
+      .call((a) => a.attr('font-size', null).attr('font-family', null)).call((a) => a.select('.domain').remove())
+      .call((a) => a.selectAll('line').attr('stroke', 'var(--cds-chart-grid)'))
+      .call((a) => a.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'));
+    xAxis(root, x, H, m, Math.max(3, Math.floor((W - m.l - m.r) / 80)), d3.utcFormat('%Y'));
+    root.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(1)).attr('y2', y(1)).attr('stroke', 'var(--cds-chart-status-critical)').attr('stroke-width', 1.5);
+    root.append('text').attr('x', m.l + 6).attr('y', y(1) - 6).attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text('Solar = coal');
+    const clip = 'sc-clip-ratio';
+    svg.append('clipPath').attr('id', clip).append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b);
+    const plot = root.append('g').attr('clip-path', `url(#${clip})`);
+    if (sim.length) {
+      band(plot, sim, x, y, 'lo', 'hi', dash.colors[1], 0.2);
+      const join = obs.at(-1);
+      line(plot, [{ d: join.d, v: join.v }, ...sim.filter((d) => d.year > join.year)], x, y, 'v', dash.colors[1], '4 3');
+    }
+    line(plot, obs, x, y, 'v', 'var(--color-fg)');
+    plot.selectAll('circle.o').data(obs).join('circle').attr('class', 'o').attr('cx', (d) => x(d.d)).attr('cy', (d) => y(d.v)).attr('r', 3).attr('fill', 'var(--color-fg)');
+    const pts = [...obs.map((d) => ({ ...d, kind: 'observed' })), ...sim.filter((d) => d.year > obs.at(-1).year).map((d) => ({ ...d, kind: 'simulated' }))];
+    const bis = d3.bisector((d) => d.d).center;
+    const rule = root.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-reference)').style('display', 'none');
+    root.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev);
+        const p = pts[bis(pts, x.invert(px))];
+        rule.style('display', null).attr('x1', x(p.d)).attr('x2', x(p.d));
+        const lines = p.kind === 'observed' ? [[null, 'Solar ÷ coal', ratioFmt(p.v)]]
+          : [[dash.colors[1], 'Median', ratioFmt(p.v)], [null, '80% of paths', `${ratioFmt(p.lo)} – ${ratioFmt(p.hi)}`]];
+        showTip(el, tip, px, py, `${p.year}${p.kind === 'observed' ? '' : ' · simulated'}`, lines);
+      })
+      .on('pointerleave', () => { rule.style('display', 'none'); tip.style('display', 'none'); });
+  });
+
+  // ---------- crossover odds
+  dash.draw('odds', (el) => {
+    const r = mine('crossover_odds');
+    if (!r || !r.length) { el.replaceChildren(); return; }
+    const H = 230;
+    const { W, svg, tip } = frame(el, H);
+    const data = r.map((d) => ({ year: +d.year, p: num(d.p_first), c: num(d.p_by_year) }));
+    const m = { t: 10, b: 26, l: measure(svg, ['100%']) + 10, r: 12 };
+    const x = d3.scaleBand(data.map((d) => d.year), [m.l, W - m.r]).padding(0.25);
+    const y = d3.scaleLinear([0, 1], [H - m.b, m.t]);
+    const root = svg.append('g');
+    yAxis(root, y, W, m, '.0%', 4);
+    const every = Math.ceil(data.length / Math.max(3, Math.floor((W - m.l - m.r) / 44)));
+    root.append('g').attr('transform', `translate(0,${H - m.b})`)
+      .call(d3.axisBottom(x).tickValues(data.map((d) => d.year).filter((_, i) => i % every === 0)).tickSizeOuter(0))
+      .call((a) => a.attr('font-size', null).attr('font-family', null))
+      .call((a) => a.select('.domain').attr('stroke', 'var(--cds-chart-axis)')).call((a) => a.selectAll('line').attr('stroke', 'var(--cds-chart-axis)'))
+      .call((a) => a.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'));
+    root.selectAll('rect.b').data(data).join('rect').attr('class', 'b')
+      .attr('x', (d) => x(d.year)).attr('width', Math.min(32, x.bandwidth())).attr('y', (d) => y(d.p)).attr('height', (d) => y(0) - y(d.p))
+      .attr('rx', 2).attr('fill', 'var(--cds-chart-muted)');
+    const cx = (d) => x(d.year) + Math.min(32, x.bandwidth()) / 2;
+    root.append('path').datum(data).attr('d', d3.line().x(cx).y((d) => y(d.c)))
+      .attr('fill', 'none').attr('stroke', dash.colors[1]).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+    const dot = root.append('circle').attr('r', 4).attr('fill', dash.colors[1]).attr('stroke', 'var(--color-panel)').attr('stroke-width', 2).style('display', 'none');
+    root.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev);
+        const i = Math.max(0, Math.min(data.length - 1, Math.floor((px - m.l) / x.step())));
+        const d = data[i];
+        dot.style('display', null).attr('cx', cx(d)).attr('cy', y(d.c));
+        showTip(el, tip, px, py, String(d.year), [[css('--cds-chart-muted'), 'First year ahead', prob(d.p)], [dash.colors[1], 'Ahead by this year', prob(d.c)]]);
+      })
+      .on('pointerleave', () => { dot.style('display', 'none'); tip.style('display', 'none'); });
+  });
+
+  // ---------- India capacity vs target
+  dash.draw('capacity', (el) => {
+    const r = rowsOf('india_capacity');
+    if (!r) { el.replaceChildren(); return; }
+    const H = 300;
+    const { W, svg, tip } = frame(el, H);
+    const yr = (v) => new Date(Date.UTC(+v, 0, 1));
+    const obs = r.filter((d) => d.scenario === 'Observed').map((d) => ({ d: yr(d.year), year: +d.year, v: num(d.gw) }));
+    const last = obs.at(-1);
+    const scen = ['Long-run trend', 'Accelerating growth'].map((s, i) => ({
+      name: s, color: dash.colors[i],
+      pts: [{ d: last.d, year: last.year, v: last.v, lo: last.v, hi: last.v },
+        ...r.filter((d) => d.scenario === s).map((d) => ({ d: yr(d.year), year: +d.year, v: num(d.gw), lo: num(d.p10), hi: num(d.p90) }))],
+    }));
+    const ymax = Math.max(TARGET_GW, d3.max(scen.flatMap((s) => s.pts.map((p) => p.hi))));
+    const y = d3.scaleLinear([0, ymax * 1.05], [H - 26, 10]).nice();
+    const m = { t: 10, b: 26, l: measure(svg, y.ticks(5).map((t) => d3.format(',')(t))) + 10, r: 12 };
+    const x = d3.scaleUtc([obs[0].d, scen[0].pts.at(-1).d], [m.l, W - m.r]);
+    const root = svg.append('g');
+    yAxis(root, y, W, m, ',');
+    xAxis(root, x, H, m, Math.max(3, Math.floor((W - m.l - m.r) / 80)), d3.utcFormat('%Y'));
+    root.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(TARGET_GW)).attr('y2', y(TARGET_GW)).attr('stroke', 'var(--cds-chart-status-critical)').attr('stroke-width', 1.5);
+    root.append('text').attr('x', m.l + 6).attr('y', y(TARGET_GW) - 6).attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text(`${TARGET_GW} GW target`);
+    for (const s of scen) band(root, s.pts, x, y, 'lo', 'hi', s.color, 0.16);
+    for (const s of scen) line(root, s.pts, x, y, 'v', s.color, '4 3');
+    line(root, obs, x, y, 'v', 'var(--color-fg)');
+    const pts = [...obs.map((p) => ({ d: p.d, year: p.year, obs: p.v })),
+      ...scen[0].pts.slice(1).map((p, i) => ({ d: p.d, year: p.year, a: p, b: scen[1].pts[i + 1] }))];
+    const bis = d3.bisector((d) => d.d).center;
+    const rule = root.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-reference)').style('display', 'none');
+    root.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev);
+        const p = pts[bis(pts, x.invert(px))];
+        rule.style('display', null).attr('x1', x(p.d)).attr('x2', x(p.d));
+        const f = (q) => `${d3.format(',.0f')(q.v)} GW (80%: ${d3.format(',.0f')(q.lo)}–${d3.format(',.0f')(q.hi)})`;
+        showTip(el, tip, px, py, String(p.year), p.obs != null ? [[null, 'Installed', d3.format(',.1f')(p.obs) + ' GW']]
+          : [[scen[0].color, 'Long-run trend', f(p.a)], [scen[1].color, 'Accelerating', f(p.b)]]);
+      })
+      .on('pointerleave', () => { rule.style('display', 'none'); tip.style('display', 'none'); });
+  });
+
+  // ---------- league table
+  let sortKey = 'solar_to_coal', sortDir = -1;
+  const NUMERIC = new Set(['coal_share', 'solar_share', 'solar_to_coal', 'median_year', 'p_by_2030', 'p_by_2035']);
+  const MODELLED = new Set(['Forecast', 'Solar already ahead']);
+  document.querySelectorAll('.sc-table th button[data-sort]').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.sort;
+    if (k === sortKey) sortDir = -sortDir; else { sortKey = k; sortDir = NUMERIC.has(k) ? -1 : 1; }
+    document.querySelectorAll('.sc-table th').forEach((th) => th.removeAttribute('aria-sort'));
+    b.closest('th').setAttribute('aria-sort', sortDir > 0 ? 'ascending' : 'descending');
+    dash.draw('league');
+  }));
+  document.querySelectorAll('.sc-search').forEach((i) => i.addEventListener('input', () => dash.draw('league')));
+  document.querySelectorAll('.sc-table').forEach((t) => t.addEventListener('click', (ev) => {
+    const tr = ev.target.closest('tr[data-key]');
+    if (tr) { dash.setParams({ country: tr.dataset.key }); document.getElementById('top')?.scrollIntoView({ behavior: 'smooth' }); }
+  }));
+  dash.draw('league', (tbody) => {
+    const r = rowsOf('outlook');
+    tbody.replaceChildren();
+    if (!r) return;
+    const q = (document.querySelector('.sc-search')?.value || '').trim().toLowerCase();
+    const rows = r.filter((d) => MODELLED.has(d.status) && (!q || d.country.toLowerCase().includes(q)));
+    const key = (d) => NUMERIC.has(sortKey) ? (num(d[sortKey]) ?? (sortDir > 0 ? Infinity : -Infinity)) : d[sortKey];
+    rows.sort((a, b) => d3.ascending(key(a), key(b)) * sortDir);
+    for (const d of rows) {
+      const tr = document.createElement('tr');
+      tr.dataset.key = d.country;
+      if (d.country === country()) tr.classList.add('sc-on');
+      const med = d.status === 'Solar already ahead' ? 'already' : num(d.median_year) == null ? 'after 2050' : d3.format('d')(num(d.median_year));
+      const cells = [[d.country, ''], [d.status, 'sc-hide-narrow'], [pct1(num(d.coal_share)), ''], [pct1(num(d.solar_share)), ''],
+        [num(d.solar_to_coal) == null ? '—' : ratioFmt(num(d.solar_to_coal)), ''], [med, ''],
+        [num(d.p_by_2030) == null ? '—' : prob(num(d.p_by_2030)), 'sc-hide-narrow'], [num(d.p_by_2035) == null ? '—' : prob(num(d.p_by_2035)), '']];
+      for (const [text, cls] of cells) { const td = document.createElement('td'); td.textContent = text; if (cls) td.className = cls; tr.appendChild(td); }
+      tbody.appendChild(tr);
+    }
+  });
+
+  // ---------- calibration
+  dash.draw('calib', (el) => {
+    const r = rowsOf('coverage');
+    if (!r) { el.replaceChildren(); return; }
+    const order = ['Solar generation', 'Coal generation', 'Solar ÷ coal ratio'];
+    const data = order.map((s) => r.find((d) => d.series === s)).filter(Boolean);
+    const H = 40 + data.length * 44;
+    const { W, svg, tip } = frame(el, H);
+    const labels = data.map((d) => d.series);
+    const m = { t: 18, b: 26, l: measure(svg, labels) + 14, r: measure(svg, ['100%  (82 countries)']) + 10 };
+    const x = d3.scaleLinear([0, 1], [m.l, W - m.r]);
+    const y = d3.scaleBand(labels, [m.t, H - m.b]).padding(0.35);
+    const root = svg.append('g');
+    xAxis(root, x, H, m, 5, d3.format('.0%'));
+    root.selectAll('text.l').data(data).join('text').attr('class', 'l').attr('x', m.l - 8).attr('y', (d) => y(d.series) + y.bandwidth() / 2).attr('dy', '0.32em')
+      .attr('text-anchor', 'end').attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').text((d) => d.series);
+    root.selectAll('rect.b').data(data).join('rect').attr('class', 'b').attr('x', x(0)).attr('y', (d) => y(d.series))
+      .attr('height', Math.min(24, y.bandwidth())).attr('width', (d) => x(+d.inside_80) - x(0)).attr('rx', 2).attr('fill', dash.colors[0]);
+    root.selectAll('text.v').data(data).join('text').attr('class', 'v').attr('x', (d) => x(+d.inside_80) + 6).attr('y', (d) => y(d.series) + Math.min(24, y.bandwidth()) / 2)
+      .attr('dy', '0.32em').attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)')
+      .text((d) => `${prob(+d.inside_80)}  (${d.countries} countries)`);
+    root.append('line').attr('x1', x(0.8)).attr('x2', x(0.8)).attr('y1', m.t - 10).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-reference)').attr('stroke-width', 1.5).attr('stroke-dasharray', '3 3');
+    root.append('text').attr('x', x(0.8)).attr('y', m.t - 12).attr('text-anchor', 'middle').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text('80% target');
+  });
+
+  const named = document.getElementById(location.hash.slice(1));
+  if (named) setTimeout(() => { named.scrollIntoView(); dash.setLink(named.id); }, 300);
+})();
+</script>

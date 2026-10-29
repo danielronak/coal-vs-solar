@@ -13,3 +13,8 @@ env.bak/
 venv.bak/
 
 
+
+# Project
+.ipynb_checkpoints/
+results/build.log
+results/results_partial.json

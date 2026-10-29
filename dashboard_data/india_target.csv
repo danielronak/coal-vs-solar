@@ -1,0 +1,3 @@
+scenario,model,p_hit,median_2030,p10_2030,p90_2030
+Long-run trend,"ARIMA(0, 1, 1) on log capacity + drift",0.1062,422.6,358.1,501.8
+Accelerating growth,"ARIMA(0, 2, 1) on log capacity",0.749,576.3,439.0,758.7

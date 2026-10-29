@@ -1,0 +1,142 @@
+country,series,inside_80,mape_pct,mae_log
+Argentina,Solar generation,1.0,10.7704,
+Argentina,Coal generation,0.75,156.791,
+Argentina,Solar ÷ coal ratio,0.8333,,1.5541
+Australia,Solar generation,1.0,3.6695,
+Australia,Coal generation,0.9167,2.8783,
+Australia,Solar ÷ coal ratio,1.0,,0.0459
+Austria,Solar generation,0.9167,9.8347,
+Bangladesh,Solar generation,1.0,35.3572,
+Bangladesh,Coal generation,1.0,46.5659,
+Bangladesh,Solar ÷ coal ratio,1.0,,0.157
+Belgium,Solar generation,0.8333,15.3466,
+Bolivia,Solar generation,1.0,7.3069,
+Bosnia Herzegovina,Solar generation,0.3333,36.5166,
+Bosnia Herzegovina,Coal generation,0.8333,11.1612,
+Bosnia Herzegovina,Solar ÷ coal ratio,0.5,,0.3331
+Brazil,Solar generation,1.0,4.2647,
+Brazil,Coal generation,1.0,16.8128,
+Brazil,Solar ÷ coal ratio,1.0,,0.2322
+Bulgaria,Solar generation,0.8333,20.0411,
+Bulgaria,Coal generation,0.5,35.4212,
+Bulgaria,Solar ÷ coal ratio,0.4167,,0.5551
+Canada,Solar generation,1.0,11.0758,
+Canada,Coal generation,0.9167,8.5592,
+Canada,Solar ÷ coal ratio,1.0,,0.1792
+Chile,Solar generation,0.8333,10.583,
+Chile,Coal generation,0.3333,25.6948,
+Chile,Solar ÷ coal ratio,0.25,,0.3931
+China,Solar generation,0.9167,7.5205,
+China,Coal generation,0.9167,4.2728,
+China,Solar ÷ coal ratio,0.8333,,0.0668
+Colombia,Solar generation,1.0,30.9686,
+Colombia,Coal generation,0.3333,188.267,
+Colombia,Solar ÷ coal ratio,0.5,,0.9442
+Costa Rica,Solar generation,0.6667,27.6827,
+Croatia,Solar generation,1.0,18.8811,
+Cyprus,Solar generation,0.1667,31.695,
+Czechia,Solar generation,0.8333,15.8833,
+Czechia,Coal generation,0.3333,29.2333,
+Czechia,Solar ÷ coal ratio,0.5,,0.3694
+Denmark,Solar generation,0.75,19.9489,
+Ecuador,Solar generation,0.8333,4.584,
+Egypt,Solar generation,0.9167,51.3887,
+Estonia,Solar generation,1.0,21.6978,
+Finland,Solar generation,0.9167,103.224,
+France,Solar generation,0.9167,7.3034,
+Germany,Solar generation,0.75,12.2334,
+Germany,Coal generation,0.6667,24.0464,
+Germany,Solar ÷ coal ratio,0.9167,,0.2071
+Greece,Solar generation,0.75,12.5423,
+Greece,Coal generation,0.25,44.6319,
+Greece,Solar ÷ coal ratio,0.25,,0.8104
+Hungary,Solar generation,0.75,26.7706,
+Hungary,Coal generation,0.9167,11.4755,
+Hungary,Solar ÷ coal ratio,0.9167,,0.1642
+India,Solar generation,0.75,7.7848,
+India,Coal generation,1.0,8.7619,
+India,Solar ÷ coal ratio,1.0,,0.0646
+Ireland,Coal generation,0.9167,46.4268,
+Italy,Solar generation,0.8333,10.7157,
+Italy,Coal generation,1.0,37.9592,
+Italy,Solar ÷ coal ratio,1.0,,0.2346
+Japan,Solar generation,0.6667,12.1688,
+Japan,Coal generation,0.9167,5.0967,
+Japan,Solar ÷ coal ratio,1.0,,0.1099
+Kazakhstan,Solar generation,0.9167,22.1215,
+Kazakhstan,Coal generation,0.9167,3.0134,
+Kazakhstan,Solar ÷ coal ratio,0.9167,,0.2117
+Kenya,Solar generation,1.0,11.6348,
+Kyrgyzstan,Coal generation,0.75,105.9887,
+Lithuania,Solar generation,0.9167,22.4134,
+Luxembourg,Solar generation,0.8333,18.6062,
+Malaysia,Solar generation,1.0,5.9369,
+Malaysia,Coal generation,1.0,8.2035,
+Malaysia,Solar ÷ coal ratio,1.0,,0.0847
+Mexico,Solar generation,1.0,3.1505,
+Mexico,Coal generation,1.0,21.6188,
+Mexico,Solar ÷ coal ratio,0.9167,,0.3673
+Mongolia,Coal generation,1.0,3.7874,
+Morocco,Solar generation,0.75,30.66,
+Morocco,Coal generation,0.9167,6.2428,
+Morocco,Solar ÷ coal ratio,0.8333,,0.2313
+Netherlands,Solar generation,0.4167,43.7244,
+Netherlands,Coal generation,0.5833,55.2371,
+Netherlands,Solar ÷ coal ratio,0.5,,1.3727
+New Zealand,Coal generation,1.0,94.2658,
+North Macedonia,Solar generation,1.0,87.1714,
+North Macedonia,Coal generation,0.8333,27.7265,
+North Macedonia,Solar ÷ coal ratio,0.9167,,0.3663
+Pakistan,Solar generation,0.8333,19.0905,
+Pakistan,Coal generation,0.5833,27.1168,
+Pakistan,Solar ÷ coal ratio,1.0,,0.2592
+Peru,Solar generation,0.8333,10.6268,
+Poland,Solar generation,1.0,14.3468,
+Poland,Coal generation,0.25,16.3271,
+Poland,Solar ÷ coal ratio,0.9167,,0.2895
+Portugal,Solar generation,0.75,26.3185,
+Puerto Rico,Solar generation,0.9167,11.4082,
+Puerto Rico,Coal generation,0.9167,20.9074,
+Puerto Rico,Solar ÷ coal ratio,0.9167,,0.1561
+Romania,Solar generation,0.8333,26.7278,
+Romania,Coal generation,1.0,7.305,
+Romania,Solar ÷ coal ratio,0.8333,,0.2258
+Russia,Solar generation,1.0,13.0912,
+Russia,Coal generation,1.0,5.5949,
+Russia,Solar ÷ coal ratio,1.0,,0.1785
+Serbia,Coal generation,0.8333,5.7118,
+Singapore,Solar generation,1.0,10.4284,
+Slovakia,Solar generation,0.75,20.5429,
+Slovenia,Solar generation,0.8333,23.2176,
+Slovenia,Coal generation,0.5,2583.7803,
+Slovenia,Solar ÷ coal ratio,0.5,,1.6803
+South Africa,Solar generation,0.9167,10.2612,
+South Africa,Coal generation,0.75,8.197,
+South Africa,Solar ÷ coal ratio,0.8333,,0.1202
+South Korea,Solar generation,0.9167,14.5646,
+South Korea,Coal generation,0.25,18.1659,
+South Korea,Solar ÷ coal ratio,0.5833,,0.2509
+Spain,Solar generation,0.9167,14.2726,
+Sweden,Solar generation,0.9167,43.0497,
+Switzerland,Solar generation,0.9167,11.2564,
+Taiwan (China),Solar generation,0.9167,17.0898,
+Taiwan (China),Coal generation,0.75,5.69,
+Taiwan (China),Solar ÷ coal ratio,1.0,,0.1171
+Thailand,Solar generation,1.0,11.7476,
+Thailand,Coal generation,0.5,33.2944,
+Thailand,Solar ÷ coal ratio,0.75,,0.3398
+The Philippines,Solar generation,0.75,13.2456,
+The Philippines,Coal generation,1.0,6.27,
+The Philippines,Solar ÷ coal ratio,0.75,,0.1572
+Tunisia,Solar generation,0.9167,9.7888,
+Türkiye,Solar generation,0.5833,18.4484,
+Türkiye,Coal generation,0.6667,16.6325,
+Türkiye,Solar ÷ coal ratio,0.8333,,0.1246
+United Kingdom,Solar generation,0.5833,18.2794,
+United States,Solar generation,1.0,6.3378,
+United States,Coal generation,1.0,6.4241,
+United States,Solar ÷ coal ratio,1.0,,0.083
+Uruguay,Solar generation,0.8333,12.386,
+Viet Nam,Solar generation,0.9167,10.4206,
+Viet Nam,Coal generation,0.9167,11.7917,
+Viet Nam,Solar ÷ coal ratio,1.0,,0.2836

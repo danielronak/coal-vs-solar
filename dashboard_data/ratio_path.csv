@@ -1,0 +1,1326 @@
+country,year,kind,ratio,p10,p90
+Argentina,2015,observed,0.0041,,
+Argentina,2016,observed,0.0061,,
+Argentina,2017,observed,0.007,,
+Argentina,2018,observed,0.0346,,
+Argentina,2019,observed,0.7018,,
+Argentina,2020,observed,0.8485,,
+Argentina,2021,observed,0.8469,,
+Argentina,2022,observed,1.0433,,
+Argentina,2023,observed,3.2318,,
+Argentina,2024,observed,3.676,,
+Argentina,2025,observed,5.2078,,
+Argentina,2026,observed,2.4132,,
+Argentina,2026,simulated,6.4994,1.478,27.3276
+Argentina,2027,simulated,2.9409,0.2748,26.8339
+Argentina,2028,simulated,2.2341,0.0347,110.4812
+Argentina,2029,simulated,2.065,0.0036,853.538
+Argentina,2030,simulated,1.4144,0.0003,8008.128
+Argentina,2031,simulated,1.2977,0.0,109308.8605
+Argentina,2032,simulated,1.0485,0.0,1848638.1779
+Argentina,2033,simulated,0.9405,0.0,27046249.6995
+Argentina,2034,simulated,0.7395,0.0,624688571.844
+Argentina,2035,simulated,0.7665,0.0,13418835270.9162
+Argentina,2036,simulated,0.4143,0.0,522004442510.3298
+Argentina,2037,simulated,0.3057,0.0,15843869698194.852
+Argentina,2038,simulated,0.23,0.0,694164552068398.9
+Argentina,2039,simulated,0.1927,0.0,4.414158807461448e+16
+Argentina,2040,simulated,0.1284,0.0,4.203633140288194e+18
+Argentina,2041,simulated,0.1801,0.0,5.1642110365209094e+20
+Argentina,2042,simulated,0.1431,0.0,3.927533011372826e+22
+Argentina,2043,simulated,0.1351,0.0,3.92285825572451e+24
+Argentina,2044,simulated,0.0685,0.0,4.2136488312714534e+26
+Argentina,2045,simulated,0.03,0.0,1.1389133902948596e+29
+Argentina,2046,simulated,0.0333,0.0,2.805482529058186e+31
+Argentina,2047,simulated,0.0286,0.0,4.235634074702753e+33
+Argentina,2048,simulated,0.0651,0.0,2.14072590489223e+36
+Argentina,2049,simulated,0.1424,0.0,6.0579536875710444e+38
+Argentina,2050,simulated,0.1016,0.0,1.8816456500235637e+41
+Australia,2007,observed,0.0001,,
+Australia,2008,observed,0.0001,,
+Australia,2009,observed,0.0003,,
+Australia,2010,observed,0.0015,,
+Australia,2011,observed,0.0059,,
+Australia,2012,observed,0.012,,
+Australia,2013,observed,0.0194,,
+Australia,2014,observed,0.025,,
+Australia,2015,observed,0.031,,
+Australia,2016,observed,0.0407,,
+Australia,2017,observed,0.0467,,
+Australia,2018,observed,0.0744,,
+Australia,2019,observed,0.1158,,
+Australia,2020,observed,0.1525,,
+Australia,2021,observed,0.2013,,
+Australia,2022,observed,0.2553,,
+Australia,2023,observed,0.3272,,
+Australia,2024,observed,0.3589,,
+Australia,2025,observed,0.4249,,
+Australia,2026,observed,0.4289,,
+Australia,2026,simulated,0.7517,0.6434,0.8837
+Australia,2027,simulated,0.5922,0.4164,0.8677
+Australia,2028,simulated,0.7088,0.3726,1.4787
+Australia,2029,simulated,0.8428,0.3249,2.501
+Australia,2030,simulated,1.0253,0.2722,4.4855
+Australia,2031,simulated,1.2346,0.2117,8.003
+Australia,2032,simulated,1.4684,0.1651,14.8881
+Australia,2033,simulated,1.798,0.1339,27.4012
+Australia,2034,simulated,2.1214,0.1025,53.4746
+Australia,2035,simulated,2.3974,0.0795,108.9243
+Australia,2036,simulated,2.8691,0.057,211.8055
+Australia,2037,simulated,3.3974,0.0417,440.6648
+Australia,2038,simulated,4.0522,0.028,937.2117
+Australia,2039,simulated,4.7076,0.0169,2182.8304
+Australia,2040,simulated,5.6106,0.0121,4839.0315
+Australia,2041,simulated,6.7947,0.0086,11070.4298
+Australia,2042,simulated,7.9462,0.0052,27851.8768
+Australia,2043,simulated,9.4976,0.0033,66515.7323
+Australia,2044,simulated,11.0935,0.0021,180676.9254
+Australia,2045,simulated,12.9153,0.0012,433838.9764
+Australia,2046,simulated,14.9791,0.0007,1180162.6297
+Australia,2047,simulated,16.6972,0.0004,2801691.0552
+Australia,2048,simulated,20.3827,0.0003,7246137.9721
+Australia,2049,simulated,26.2783,0.0001,18000296.5347
+Australia,2050,simulated,28.3608,0.0001,44543425.5021
+Bangladesh,2019,observed,0.0253,,
+Bangladesh,2020,observed,0.0146,,
+Bangladesh,2021,observed,0.0439,,
+Bangladesh,2022,observed,0.0551,,
+Bangladesh,2023,observed,0.0434,,
+Bangladesh,2024,observed,0.0372,,
+Bangladesh,2025,observed,0.0476,,
+Bangladesh,2026,observed,0.0387,,
+Bangladesh,2026,simulated,0.0393,0.0241,0.0625
+Bangladesh,2027,simulated,0.0387,0.0179,0.0821
+Bangladesh,2028,simulated,0.0365,0.0098,0.1407
+Bangladesh,2029,simulated,0.0354,0.0049,0.2387
+Bangladesh,2030,simulated,0.0349,0.0021,0.4858
+Bangladesh,2031,simulated,0.0351,0.0009,0.9953
+Bangladesh,2032,simulated,0.034,0.0004,2.1173
+Bangladesh,2033,simulated,0.0342,0.0001,5.3938
+Bangladesh,2034,simulated,0.034,0.0001,13.9611
+Bangladesh,2035,simulated,0.0332,0.0,34.7455
+Bangladesh,2036,simulated,0.0332,0.0,110.2303
+Bangladesh,2037,simulated,0.0341,0.0,291.5888
+Bangladesh,2038,simulated,0.0343,0.0,833.834
+Bangladesh,2039,simulated,0.0311,0.0,2407.184
+Bangladesh,2040,simulated,0.0251,0.0,8153.9993
+Bangladesh,2041,simulated,0.0262,0.0,24638.927
+Bangladesh,2042,simulated,0.0231,0.0,92625.7726
+Bangladesh,2043,simulated,0.0231,0.0,348869.0262
+Bangladesh,2044,simulated,0.0215,0.0,1224140.7565
+Bangladesh,2045,simulated,0.0186,0.0,4584073.2532
+Bangladesh,2046,simulated,0.0161,0.0,22442789.9922
+Bangladesh,2047,simulated,0.016,0.0,87271325.3604
+Bangladesh,2048,simulated,0.0146,0.0,348398569.6474
+Bangladesh,2049,simulated,0.0133,0.0,1574232153.7457
+Bangladesh,2050,simulated,0.0156,0.0,9461214873.8636
+Bosnia Herzegovina,2019,observed,0.0021,,
+Bosnia Herzegovina,2020,observed,0.0029,,
+Bosnia Herzegovina,2021,observed,0.0042,,
+Bosnia Herzegovina,2022,observed,0.0077,,
+Bosnia Herzegovina,2023,observed,0.0159,,
+Bosnia Herzegovina,2024,observed,0.0345,,
+Bosnia Herzegovina,2025,observed,0.0628,,
+Bosnia Herzegovina,2026,observed,0.0882,,
+Bosnia Herzegovina,2026,simulated,0.0786,0.0523,0.1224
+Bosnia Herzegovina,2027,simulated,0.1896,0.1241,0.3143
+Bosnia Herzegovina,2028,simulated,0.3473,0.2037,0.6275
+Bosnia Herzegovina,2029,simulated,0.6386,0.3435,1.3202
+Bosnia Herzegovina,2030,simulated,1.1865,0.5629,2.7441
+Bosnia Herzegovina,2031,simulated,2.1728,0.9307,5.8612
+Bosnia Herzegovina,2032,simulated,4.0772,1.5393,12.1206
+Bosnia Herzegovina,2033,simulated,7.5973,2.5485,25.3191
+Bosnia Herzegovina,2034,simulated,14.1131,4.1814,52.9612
+Bosnia Herzegovina,2035,simulated,26.0623,6.7645,111.5326
+Bosnia Herzegovina,2036,simulated,48.365,11.4239,234.0619
+Bosnia Herzegovina,2037,simulated,89.4255,19.0943,489.9513
+Bosnia Herzegovina,2038,simulated,164.6649,30.8509,1007.5398
+Bosnia Herzegovina,2039,simulated,313.8371,51.2715,2080.2838
+Bosnia Herzegovina,2040,simulated,574.5656,82.193,4408.2311
+Bosnia Herzegovina,2041,simulated,1051.5876,141.1928,9426.8266
+Bosnia Herzegovina,2042,simulated,1949.1218,227.2971,19371.0188
+Bosnia Herzegovina,2043,simulated,3620.786,384.3605,41216.5533
+Bosnia Herzegovina,2044,simulated,6680.3957,616.6294,86202.9285
+Bosnia Herzegovina,2045,simulated,12484.818,1024.9742,181623.1726
+Bosnia Herzegovina,2046,simulated,23349.2479,1710.2813,371763.3722
+Bosnia Herzegovina,2047,simulated,42642.6572,2806.4382,767957.2698
+Bosnia Herzegovina,2048,simulated,79300.7437,4629.4694,1662613.0425
+Bosnia Herzegovina,2049,simulated,146081.6318,7734.5136,3336956.8246
+Bosnia Herzegovina,2050,simulated,271034.1273,12627.6734,7262205.4825
+Brazil,2018,observed,0.2831,,
+Brazil,2019,observed,0.5125,,
+Brazil,2020,observed,1.1977,,
+Brazil,2021,observed,1.0271,,
+Brazil,2022,observed,4.6004,,
+Brazil,2023,observed,6.8234,,
+Brazil,2024,observed,9.1369,,
+Brazil,2025,observed,10.0145,,
+Brazil,2026,observed,11.7265,,
+Brazil,2026,simulated,10.2231,5.3055,20.177
+Brazil,2027,simulated,15.4893,4.1709,65.5715
+Brazil,2028,simulated,23.4554,3.2374,189.7959
+Brazil,2029,simulated,33.6121,2.5265,529.9003
+Brazil,2030,simulated,51.7811,1.9161,1418.0853
+Brazil,2031,simulated,78.2526,1.6365,3667.2214
+Brazil,2032,simulated,116.2963,1.4276,8401.3598
+Brazil,2033,simulated,161.5025,1.0034,21801.1581
+Brazil,2034,simulated,239.9519,0.9481,57267.4078
+Brazil,2035,simulated,345.1555,0.8078,146569.3561
+Brazil,2036,simulated,528.1684,0.6197,441591.5399
+Brazil,2037,simulated,813.2058,0.4754,1073562.7795
+Brazil,2038,simulated,1097.4669,0.3922,2606682.5732
+Brazil,2039,simulated,1722.5288,0.3099,7728110.9473
+Brazil,2040,simulated,2153.0573,0.2398,18667284.8661
+Brazil,2041,simulated,3235.8603,0.1595,57042525.2601
+Brazil,2042,simulated,4120.7903,0.1039,171776031.435
+Brazil,2043,simulated,6888.2959,0.0774,509749097.0935
+Brazil,2044,simulated,10557.3508,0.0642,1304776588.9524
+Brazil,2045,simulated,17767.6096,0.0461,3761680597.3432
+Brazil,2046,simulated,25331.1667,0.0311,12383095235.6304
+Brazil,2047,simulated,33131.2152,0.0229,41681474813.5371
+Brazil,2048,simulated,49516.4329,0.0127,113140370971.2903
+Brazil,2049,simulated,69632.8325,0.0086,238488037980.8854
+Brazil,2050,simulated,106024.3866,0.0052,796662607644.1586
+Bulgaria,2015,observed,0.0525,,
+Bulgaria,2016,observed,0.0597,,
+Bulgaria,2017,observed,0.0576,,
+Bulgaria,2018,observed,0.0557,,
+Bulgaria,2019,observed,0.0658,,
+Bulgaria,2020,observed,0.0884,,
+Bulgaria,2021,observed,0.0706,,
+Bulgaria,2022,observed,0.0655,,
+Bulgaria,2023,observed,0.2134,,
+Bulgaria,2024,observed,0.4926,,
+Bulgaria,2025,observed,0.6798,,
+Bulgaria,2026,observed,1.0231,,
+Bulgaria,2026,simulated,0.5345,0.3834,0.7341
+Bulgaria,2027,simulated,1.3636,0.7705,2.3776
+Bulgaria,2028,simulated,2.0105,0.7813,5.1405
+Bulgaria,2029,simulated,2.9908,0.7485,12.2721
+Bulgaria,2030,simulated,4.3428,0.6656,29.762
+Bulgaria,2031,simulated,6.729,0.6126,74.6324
+Bulgaria,2032,simulated,9.836,0.535,192.8777
+Bulgaria,2033,simulated,14.6026,0.4459,536.85
+Bulgaria,2034,simulated,20.5088,0.3402,1554.2454
+Bulgaria,2035,simulated,29.7823,0.2713,4222.7079
+Bulgaria,2036,simulated,45.6708,0.2047,14213.1363
+Bulgaria,2037,simulated,64.4583,0.1454,44526.7254
+Bulgaria,2038,simulated,89.2154,0.1048,147846.4672
+Bulgaria,2039,simulated,132.5345,0.0722,553213.8294
+Bulgaria,2040,simulated,173.2036,0.0453,1906117.7391
+Bulgaria,2041,simulated,238.2077,0.028,7200658.2885
+Bulgaria,2042,simulated,384.2301,0.0175,22099351.9863
+Bulgaria,2043,simulated,658.3043,0.011,75813118.3252
+Bulgaria,2044,simulated,1017.4677,0.0063,245076754.0153
+Bulgaria,2045,simulated,1536.0268,0.0031,1051599245.4168
+Bulgaria,2046,simulated,2477.1768,0.0018,5343287819.9241
+Bulgaria,2047,simulated,3450.2513,0.001,25771050220.4762
+Bulgaria,2048,simulated,5209.4911,0.0006,118290247784.5471
+Bulgaria,2049,simulated,7869.3502,0.0003,453541635616.027
+Bulgaria,2050,simulated,11479.4552,0.0002,1695936688151.6646
+Canada,2011,observed,0.0028,,
+Canada,2012,observed,0.0044,,
+Canada,2013,observed,0.004,,
+Canada,2014,observed,0.0044,,
+Canada,2015,observed,0.005,,
+Canada,2016,observed,0.0269,,
+Canada,2017,observed,0.0305,,
+Canada,2018,observed,0.0386,,
+Canada,2019,observed,0.0454,,
+Canada,2020,observed,0.0622,,
+Canada,2021,observed,0.0757,,
+Canada,2022,observed,0.1161,,
+Canada,2023,observed,0.1908,,
+Canada,2024,observed,0.3362,,
+Canada,2025,observed,0.3548,,
+Canada,2026,observed,0.4183,,
+Canada,2026,simulated,0.3393,0.2225,0.5243
+Canada,2027,simulated,0.4715,0.1692,1.2742
+Canada,2028,simulated,0.5543,0.0617,4.7167
+Canada,2029,simulated,0.6566,0.0216,20.2908
+Canada,2030,simulated,0.7745,0.0059,107.1743
+Canada,2031,simulated,0.913,0.0016,674.3274
+Canada,2032,simulated,1.2035,0.0003,4310.4851
+Canada,2033,simulated,1.6995,0.0001,26661.4508
+Canada,2034,simulated,1.9743,0.0,162690.376
+Canada,2035,simulated,2.2692,0.0,1067904.8755
+Canada,2036,simulated,2.7627,0.0,9514925.8951
+Canada,2037,simulated,3.2814,0.0,59497585.9489
+Canada,2038,simulated,3.7719,0.0,451103262.2973
+Canada,2039,simulated,3.9898,0.0,3077803370.2937
+Canada,2040,simulated,3.8145,0.0,34154929093.7619
+Canada,2041,simulated,3.1156,0.0,250314479481.1968
+Canada,2042,simulated,3.4784,0.0,2862055382932.806
+Canada,2043,simulated,3.2902,0.0,28952807735149.324
+Canada,2044,simulated,3.7248,0.0,331398739169005.4
+Canada,2045,simulated,4.244,0.0,4170166555056195.0
+Canada,2046,simulated,4.801,0.0,4.498826061709353e+16
+Canada,2047,simulated,3.9723,0.0,3.6665280324450003e+17
+Canada,2048,simulated,3.623,0.0,2.3068270616107597e+18
+Canada,2049,simulated,4.4971,0.0,1.7507762460805904e+19
+Canada,2050,simulated,4.6407,0.0,1.5429842170370376e+20
+Chile,2016,observed,0.0767,,
+Chile,2017,observed,0.1325,,
+Chile,2018,observed,0.1875,,
+Chile,2019,observed,0.2199,,
+Chile,2020,observed,0.2756,,
+Chile,2021,observed,0.3807,,
+Chile,2022,observed,0.7793,,
+Chile,2023,observed,1.1985,,
+Chile,2024,observed,1.4732,,
+Chile,2025,observed,1.3777,,
+Chile,2026,observed,1.8467,,
+Chile,2026,simulated,1.9842,1.3843,2.945
+Chile,2027,simulated,2.9148,1.4892,6.4682
+Chile,2028,simulated,4.0793,1.6442,11.6666
+Chile,2029,simulated,5.6364,1.8915,20.292
+Chile,2030,simulated,7.6332,2.1454,36.1144
+Chile,2031,simulated,10.7716,2.4656,60.404
+Chile,2032,simulated,14.7584,2.7804,103.2779
+Chile,2033,simulated,20.236,3.2187,179.1423
+Chile,2034,simulated,28.0449,3.5891,299.1761
+Chile,2035,simulated,38.0915,4.1197,512.642
+Chile,2036,simulated,52.7314,4.7772,867.54
+Chile,2037,simulated,70.9896,5.1358,1438.098
+Chile,2038,simulated,100.9848,5.9931,2510.6052
+Chile,2039,simulated,141.9741,6.81,4229.9911
+Chile,2040,simulated,196.3906,8.0118,7310.3125
+Chile,2041,simulated,261.7061,8.7503,12716.6617
+Chile,2042,simulated,370.703,9.4755,21636.6663
+Chile,2043,simulated,515.2542,10.9496,36516.4144
+Chile,2044,simulated,697.1264,12.7104,61733.5445
+Chile,2045,simulated,947.8817,13.8194,105397.3648
+Chile,2046,simulated,1270.7489,15.8685,194064.5787
+Chile,2047,simulated,1831.1732,18.1144,323912.6321
+Chile,2048,simulated,2591.5239,20.6072,535540.1867
+Chile,2049,simulated,3627.6426,25.2392,898457.4182
+Chile,2050,simulated,4809.6798,28.0593,1531752.5244
+China,2016,observed,0.0158,,
+China,2017,observed,0.0267,,
+China,2018,observed,0.0371,,
+China,2019,observed,0.0457,,
+China,2020,observed,0.053,,
+China,2021,observed,0.0611,,
+China,2022,observed,0.0789,,
+China,2023,observed,0.1008,,
+China,2024,observed,0.1425,,
+China,2025,observed,0.2024,,
+China,2026,observed,0.2441,,
+China,2026,simulated,0.2214,0.191,0.2596
+China,2027,simulated,0.3024,0.224,0.4349
+China,2028,simulated,0.384,0.2234,0.7114
+China,2029,simulated,0.4894,0.2395,1.1251
+China,2030,simulated,0.6259,0.2572,1.705
+China,2031,simulated,0.8017,0.2789,2.611
+China,2032,simulated,1.0149,0.3039,4.0357
+China,2033,simulated,1.3131,0.3306,6.2092
+China,2034,simulated,1.6943,0.3496,9.7195
+China,2035,simulated,2.1572,0.3746,14.444
+China,2036,simulated,2.7783,0.408,22.2292
+China,2037,simulated,3.5711,0.4448,33.9222
+China,2038,simulated,4.4302,0.4868,52.197
+China,2039,simulated,5.7679,0.5266,79.3233
+China,2040,simulated,7.5526,0.5614,124.3337
+China,2041,simulated,9.6305,0.6174,188.1715
+China,2042,simulated,12.2353,0.6508,286.4875
+China,2043,simulated,15.6716,0.7103,431.5434
+China,2044,simulated,20.1946,0.7625,680.1842
+China,2045,simulated,25.4493,0.8129,1062.0851
+China,2046,simulated,32.7493,0.9008,1612.3756
+China,2047,simulated,42.0753,0.9783,2448.8818
+China,2048,simulated,54.3312,1.0689,3700.9003
+China,2049,simulated,68.9165,1.1389,5523.9262
+China,2050,simulated,86.6282,1.2353,8652.2464
+Colombia,2019,observed,0.0194,,
+Colombia,2020,observed,0.0236,,
+Colombia,2021,observed,0.0952,,
+Colombia,2022,observed,0.2094,,
+Colombia,2023,observed,0.1775,,
+Colombia,2024,observed,0.3681,,
+Colombia,2025,observed,1.5375,,
+Colombia,2026,simulated,3.0656,1.1728,8.23
+Colombia,2027,simulated,6.7242,0.88,56.9907
+Colombia,2028,simulated,16.4822,0.9673,374.7623
+Colombia,2029,simulated,43.9758,0.9681,2390.625
+Colombia,2030,simulated,96.2155,1.1183,13472.6593
+Colombia,2031,simulated,242.4159,1.2636,83848.0385
+Colombia,2032,simulated,543.9717,1.6628,444790.1416
+Colombia,2033,simulated,1522.9264,2.1583,2506595.7722
+Colombia,2034,simulated,3927.4861,2.6113,13373971.8907
+Colombia,2035,simulated,8845.6801,3.1824,78576751.3493
+Colombia,2036,simulated,21527.8904,3.6783,330397536.8961
+Colombia,2037,simulated,56560.944,4.1044,1954759457.8634
+Colombia,2038,simulated,134677.2353,5.8603,13100056873.0504
+Colombia,2039,simulated,369424.0685,9.6518,67981156090.4109
+Colombia,2040,simulated,936472.6006,9.0612,430680280896.5297
+Colombia,2041,simulated,1987130.4549,15.1586,2717596409927.8027
+Colombia,2042,simulated,4585521.6267,18.8815,16106212613103.102
+Colombia,2043,simulated,12490955.431,22.8178,76809126398528.89
+Colombia,2044,simulated,39798837.0864,27.6028,444391806538370.75
+Colombia,2045,simulated,92356243.205,30.8501,2905966323993954.5
+Colombia,2046,simulated,207684678.981,36.8073,1.6416747971776362e+16
+Colombia,2047,simulated,482120179.1811,42.2945,9.561972420583822e+16
+Colombia,2048,simulated,1175248314.1897,54.408,4.4760197267154374e+17
+Colombia,2049,simulated,2659016495.7365,84.3403,2.7465447805765514e+18
+Colombia,2050,simulated,6521441122.0768,89.5979,1.9119554604140057e+19
+Czechia,2015,observed,0.0506,,
+Czechia,2016,observed,0.0458,,
+Czechia,2017,observed,0.0477,,
+Czechia,2018,observed,0.05,,
+Czechia,2019,observed,0.0569,,
+Czechia,2020,observed,0.0639,,
+Czechia,2021,observed,0.0592,,
+Czechia,2022,observed,0.059,,
+Czechia,2023,observed,0.0865,,
+Czechia,2024,observed,0.1428,,
+Czechia,2025,observed,0.1754,,
+Czechia,2026,observed,0.2239,,
+Czechia,2026,simulated,0.0735,0.0577,0.0931
+Czechia,2027,simulated,0.2126,0.152,0.2945
+Czechia,2028,simulated,0.2476,0.1503,0.4128
+Czechia,2029,simulated,0.2926,0.1458,0.5886
+Czechia,2030,simulated,0.3466,0.1416,0.8451
+Czechia,2031,simulated,0.4099,0.1388,1.2197
+Czechia,2032,simulated,0.4823,0.1391,1.7971
+Czechia,2033,simulated,0.5689,0.1278,2.6022
+Czechia,2034,simulated,0.6579,0.125,3.8859
+Czechia,2035,simulated,0.7571,0.1153,5.9204
+Czechia,2036,simulated,0.9121,0.1063,9.042
+Czechia,2037,simulated,1.0558,0.1005,14.2004
+Czechia,2038,simulated,1.2061,0.0898,23.2617
+Czechia,2039,simulated,1.3874,0.0839,34.7238
+Czechia,2040,simulated,1.6699,0.073,52.9605
+Czechia,2041,simulated,1.952,0.0661,83.5954
+Czechia,2042,simulated,2.3855,0.0574,129.4194
+Czechia,2043,simulated,2.8506,0.0465,199.3201
+Czechia,2044,simulated,3.3148,0.0392,332.5508
+Czechia,2045,simulated,4.0948,0.0325,571.6444
+Czechia,2046,simulated,4.9075,0.0286,1027.7508
+Czechia,2047,simulated,5.7574,0.0259,1687.8713
+Czechia,2048,simulated,6.8527,0.0209,2736.5348
+Czechia,2049,simulated,7.9071,0.018,4249.6041
+Czechia,2050,simulated,9.5657,0.0145,6637.7976
+Germany,2015,observed,0.1211,,
+Germany,2016,observed,0.1213,,
+Germany,2017,observed,0.1334,,
+Germany,2018,observed,0.1636,,
+Germany,2019,observed,0.2317,,
+Germany,2020,observed,0.3299,,
+Germany,2021,observed,0.2619,,
+Germany,2022,observed,0.2888,,
+Germany,2023,observed,0.4456,,
+Germany,2024,observed,0.6587,,
+Germany,2025,observed,0.8427,,
+Germany,2026,observed,1.1467,,
+Germany,2026,simulated,0.3983,0.3018,0.5168
+Germany,2027,simulated,1.1195,0.8027,1.5591
+Germany,2028,simulated,1.3458,0.8266,2.234
+Germany,2029,simulated,1.6738,0.8435,3.3844
+Germany,2030,simulated,2.0555,0.8337,5.1914
+Germany,2031,simulated,2.5219,0.8929,7.8316
+Germany,2032,simulated,3.1176,0.8876,11.8012
+Germany,2033,simulated,3.7925,0.9283,17.8952
+Germany,2034,simulated,4.6053,0.9877,28.191
+Germany,2035,simulated,5.8379,1.0261,41.1928
+Germany,2036,simulated,7.0131,1.0435,61.92
+Germany,2037,simulated,9.2424,1.0975,96.6184
+Germany,2038,simulated,11.258,1.081,142.3655
+Germany,2039,simulated,13.8928,1.167,207.0832
+Germany,2040,simulated,16.8293,1.2074,310.1095
+Germany,2041,simulated,20.3561,1.2921,491.0693
+Germany,2042,simulated,25.547,1.3206,756.4743
+Germany,2043,simulated,31.1972,1.4044,1117.9946
+Germany,2044,simulated,38.3656,1.4472,1646.6084
+Germany,2045,simulated,45.5141,1.5099,2440.2975
+Germany,2046,simulated,56.9124,1.5833,3876.1782
+Germany,2047,simulated,70.5014,1.5718,6178.3505
+Germany,2048,simulated,89.747,1.611,8986.3374
+Germany,2049,simulated,109.9262,1.6492,14310.829
+Germany,2050,simulated,139.8819,1.6615,21157.1145
+Greece,2015,observed,0.1783,,
+Greece,2016,observed,0.2346,,
+Greece,2017,observed,0.2063,,
+Greece,2018,observed,0.2205,,
+Greece,2019,observed,0.3253,,
+Greece,2020,observed,0.7396,,
+Greece,2021,observed,0.8476,,
+Greece,2022,observed,1.1554,,
+Greece,2023,observed,1.9175,,
+Greece,2024,observed,4.0069,,
+Greece,2025,observed,5.047,,
+Greece,2026,observed,5.0323,,
+Greece,2026,simulated,3.1992,2.0922,4.781
+Greece,2027,simulated,6.2701,3.9623,9.8549
+Greece,2028,simulated,8.3812,4.0621,16.6262
+Greece,2029,simulated,11.2855,4.3709,28.1599
+Greece,2030,simulated,14.8532,4.6087,48.0906
+Greece,2031,simulated,20.6218,5.0162,77.4928
+Greece,2032,simulated,26.8876,5.2727,136.3761
+Greece,2033,simulated,35.2893,5.6153,237.0016
+Greece,2034,simulated,46.6272,5.4554,402.8874
+Greece,2035,simulated,61.6531,5.8333,755.3616
+Greece,2036,simulated,83.7926,5.6872,1347.7327
+Greece,2037,simulated,110.9588,5.7977,2331.7143
+Greece,2038,simulated,144.2786,5.5707,4342.8391
+Greece,2039,simulated,185.8967,5.4408,8302.1906
+Greece,2040,simulated,246.2128,5.1863,15480.5565
+Greece,2041,simulated,327.1485,4.917,27016.8552
+Greece,2042,simulated,458.6446,4.9019,53336.4921
+Greece,2043,simulated,632.5217,4.3853,96462.1993
+Greece,2044,simulated,864.4374,4.0797,193273.5002
+Greece,2045,simulated,1172.2025,3.9323,328298.648
+Greece,2046,simulated,1602.8294,3.854,609925.18
+Greece,2047,simulated,2240.241,3.4317,1442346.9583
+Greece,2048,simulated,2847.7429,3.1402,2830079.3176
+Greece,2049,simulated,3937.9581,3.1074,6465482.3582
+Greece,2050,simulated,5131.0242,2.4721,12636908.5028
+Hungary,2019,observed,0.3015,,
+Hungary,2020,observed,0.5423,,
+Hungary,2021,observed,1.0913,,
+Hungary,2022,observed,1.3882,,
+Hungary,2023,observed,2.1191,,
+Hungary,2024,observed,3.0434,,
+Hungary,2025,observed,5.8947,,
+Hungary,2026,observed,8.9599,,
+Hungary,2026,simulated,4.6519,3.4351,6.1717
+Hungary,2027,simulated,13.1212,9.9358,17.542
+Hungary,2028,simulated,19.7974,13.6143,30.0162
+Hungary,2029,simulated,31.4999,18.6038,57.1535
+Hungary,2030,simulated,49.4223,25.3489,104.0069
+Hungary,2031,simulated,77.3314,34.9397,192.4843
+Hungary,2032,simulated,121.3787,48.1503,350.1689
+Hungary,2033,simulated,192.6454,67.0157,648.9246
+Hungary,2034,simulated,303.2513,92.5197,1198.8805
+Hungary,2035,simulated,474.3261,126.4099,2215.2867
+Hungary,2036,simulated,743.1948,172.4175,4088.7932
+Hungary,2037,simulated,1180.6079,239.4467,7544.089
+Hungary,2038,simulated,1844.2612,323.8251,13878.3309
+Hungary,2039,simulated,2914.5556,446.8812,25978.8457
+Hungary,2040,simulated,4627.4853,603.4074,47085.9847
+Hungary,2041,simulated,7226.1261,828.2074,88216.209
+Hungary,2042,simulated,11269.778,1125.9266,158586.7617
+Hungary,2043,simulated,17991.6281,1549.4123,298382.7743
+Hungary,2044,simulated,27586.7916,2119.2437,540312.4561
+Hungary,2045,simulated,42686.2432,2924.5467,986392.7538
+Hungary,2046,simulated,69333.6073,3897.6962,1801526.7649
+Hungary,2047,simulated,109206.9829,5423.3091,3624304.211
+Hungary,2048,simulated,175843.7605,7308.8909,6504835.8852
+Hungary,2049,simulated,272315.1033,10064.5676,12163503.2966
+Hungary,2050,simulated,440190.5014,13025.0277,22494828.1193
+India,2019,observed,0.049,,
+India,2020,observed,0.0666,,
+India,2021,observed,0.0704,,
+India,2022,observed,0.0909,,
+India,2023,observed,0.0989,,
+India,2024,observed,0.1149,,
+India,2025,observed,0.1602,,
+India,2026,observed,0.197,,
+India,2026,simulated,0.2117,0.1919,0.2356
+India,2027,simulated,0.2535,0.2072,0.3108
+India,2028,simulated,0.3188,0.2158,0.4691
+India,2029,simulated,0.3973,0.2108,0.7361
+India,2030,simulated,0.5048,0.2007,1.1914
+India,2031,simulated,0.6246,0.1891,1.9744
+India,2032,simulated,0.7753,0.1668,3.4052
+India,2033,simulated,0.9722,0.14,5.8541
+India,2034,simulated,1.2434,0.1239,10.882
+India,2035,simulated,1.5291,0.102,19.9331
+India,2036,simulated,1.9191,0.0874,38.7382
+India,2037,simulated,2.4147,0.071,77.28
+India,2038,simulated,3.0372,0.0539,152.6729
+India,2039,simulated,3.7993,0.0411,336.2307
+India,2040,simulated,4.7717,0.0291,675.3486
+India,2041,simulated,5.9378,0.0215,1511.2642
+India,2042,simulated,7.2281,0.016,3162.0194
+India,2043,simulated,9.1816,0.0108,7404.2838
+India,2044,simulated,11.305,0.0074,15618.9575
+India,2045,simulated,13.5929,0.0049,34402.6061
+India,2046,simulated,16.3251,0.0036,74453.043
+India,2047,simulated,19.8032,0.0028,176763.8922
+India,2048,simulated,24.1917,0.0019,436415.7389
+India,2049,simulated,28.9603,0.0012,988754.6283
+India,2050,simulated,39.7062,0.0008,2449617.3636
+Italy,2016,observed,1.9943,,
+Italy,2017,observed,1.2212,,
+Italy,2018,observed,0.7833,,
+Italy,2019,observed,1.294,,
+Italy,2020,observed,1.9285,,
+Italy,2021,observed,1.7645,,
+Italy,2022,observed,1.231,,
+Italy,2023,observed,2.8895,,
+Italy,2024,observed,9.4735,,
+Italy,2025,observed,12.858,,
+Italy,2026,observed,22.5598,,
+Italy,2026,simulated,10.5923,6.7719,16.3815
+Italy,2027,simulated,22.357,10.0788,48.3395
+Italy,2028,simulated,29.186,6.1654,126.404
+Italy,2029,simulated,37.3562,3.113,363.7129
+Italy,2030,simulated,48.4994,1.4991,1381.2611
+Italy,2031,simulated,61.8795,0.5671,5310.8694
+Italy,2032,simulated,81.3847,0.2024,23004.0148
+Italy,2033,simulated,112.0604,0.0732,98915.1578
+Italy,2034,simulated,139.8274,0.0195,426995.6165
+Italy,2035,simulated,160.855,0.006,2866062.6717
+Italy,2036,simulated,209.0408,0.0013,19608538.3503
+Italy,2037,simulated,286.8078,0.0003,148018200.2601
+Italy,2038,simulated,347.2103,0.0001,951195722.8417
+Italy,2039,simulated,487.0421,0.0,8329021964.5264
+Italy,2040,simulated,565.0335,0.0,79702065171.9235
+Italy,2041,simulated,729.4566,0.0,699401195066.6543
+Italy,2042,simulated,901.0188,0.0,5679450695980.0
+Italy,2043,simulated,1551.527,0.0,66139952835594.51
+Italy,2044,simulated,1996.5835,0.0,682985704385679.1
+Italy,2045,simulated,2381.5068,0.0,8998247137119206.0
+Italy,2046,simulated,2957.5042,0.0,1.3701341099557294e+17
+Italy,2047,simulated,3596.5983,0.0,1.874958560114881e+18
+Italy,2048,simulated,6767.2266,0.0,2.4402806531022533e+19
+Italy,2049,simulated,6656.4863,0.0,3.192368112249514e+20
+Italy,2050,simulated,9356.3691,0.0,5.982852463815869e+21
+Japan,2018,observed,0.213,,
+Japan,2019,observed,0.2233,,
+Japan,2020,observed,0.2521,,
+Japan,2021,observed,0.2804,,
+Japan,2022,observed,0.2947,,
+Japan,2023,observed,0.3475,,
+Japan,2024,observed,0.3447,,
+Japan,2025,observed,0.3611,,
+Japan,2026,observed,0.3797,,
+Japan,2026,simulated,0.2518,0.2092,0.3043
+Japan,2027,simulated,0.2844,0.185,0.432
+Japan,2028,simulated,0.2351,0.083,0.6154
+Japan,2029,simulated,0.1879,0.0338,0.9667
+Japan,2030,simulated,0.155,0.0114,1.6491
+Japan,2031,simulated,0.1207,0.0034,3.4858
+Japan,2032,simulated,0.0941,0.001,7.5501
+Japan,2033,simulated,0.0743,0.0003,15.6399
+Japan,2034,simulated,0.0537,0.0001,36.3913
+Japan,2035,simulated,0.0354,0.0,95.1247
+Japan,2036,simulated,0.0267,0.0,273.2827
+Japan,2037,simulated,0.02,0.0,858.3662
+Japan,2038,simulated,0.0134,0.0,2359.1156
+Japan,2039,simulated,0.0105,0.0,6869.9474
+Japan,2040,simulated,0.0073,0.0,20419.351
+Japan,2041,simulated,0.0049,0.0,56790.254
+Japan,2042,simulated,0.0034,0.0,155610.9815
+Japan,2043,simulated,0.0023,0.0,551721.7026
+Japan,2044,simulated,0.0017,0.0,2083326.8729
+Japan,2045,simulated,0.0012,0.0,6017387.4304
+Japan,2046,simulated,0.0008,0.0,19131057.3991
+Japan,2047,simulated,0.0007,0.0,52400867.2676
+Japan,2048,simulated,0.0006,0.0,158217757.1837
+Japan,2049,simulated,0.0004,0.0,859598007.9127
+Japan,2050,simulated,0.0003,0.0,2329439468.5688
+Kazakhstan,2018,observed,0.0016,,
+Kazakhstan,2019,observed,0.0049,,
+Kazakhstan,2020,observed,0.0154,,
+Kazakhstan,2021,observed,0.0207,,
+Kazakhstan,2022,observed,0.0223,,
+Kazakhstan,2023,observed,0.0255,,
+Kazakhstan,2024,observed,0.0252,,
+Kazakhstan,2025,observed,0.0267,,
+Kazakhstan,2026,observed,0.0283,,
+Kazakhstan,2026,simulated,0.0275,0.021,0.0356
+Kazakhstan,2027,simulated,0.0332,0.0198,0.0549
+Kazakhstan,2028,simulated,0.0409,0.0175,0.0933
+Kazakhstan,2029,simulated,0.0502,0.015,0.1547
+Kazakhstan,2030,simulated,0.0628,0.013,0.2532
+Kazakhstan,2031,simulated,0.0745,0.0112,0.4542
+Kazakhstan,2032,simulated,0.0922,0.01,0.7566
+Kazakhstan,2033,simulated,0.1107,0.0087,1.3448
+Kazakhstan,2034,simulated,0.1316,0.0072,2.3776
+Kazakhstan,2035,simulated,0.1507,0.0054,4.3535
+Kazakhstan,2036,simulated,0.1832,0.0052,7.5113
+Kazakhstan,2037,simulated,0.2275,0.0038,16.1905
+Kazakhstan,2038,simulated,0.2924,0.0033,28.6584
+Kazakhstan,2039,simulated,0.3418,0.0027,58.8644
+Kazakhstan,2040,simulated,0.3937,0.0023,119.0826
+Kazakhstan,2041,simulated,0.5087,0.0017,231.0403
+Kazakhstan,2042,simulated,0.5848,0.0013,451.5392
+Kazakhstan,2043,simulated,0.7621,0.001,973.1304
+Kazakhstan,2044,simulated,0.9946,0.0008,2022.642
+Kazakhstan,2045,simulated,1.2082,0.0007,4452.9442
+Kazakhstan,2046,simulated,1.4873,0.0005,8578.3175
+Kazakhstan,2047,simulated,1.8137,0.0003,17632.8342
+Kazakhstan,2048,simulated,2.2692,0.0002,40225.9939
+Kazakhstan,2049,simulated,2.5921,0.0002,91546.5035
+Kazakhstan,2050,simulated,3.2311,0.0001,194227.1905
+Malaysia,2018,observed,0.0023,,
+Malaysia,2019,observed,0.0085,,
+Malaysia,2020,observed,0.0105,,
+Malaysia,2021,observed,0.0148,,
+Malaysia,2022,observed,0.0222,,
+Malaysia,2023,observed,0.0278,,
+Malaysia,2024,observed,0.0373,,
+Malaysia,2025,observed,0.0401,,
+Malaysia,2026,observed,0.048,,
+Malaysia,2026,simulated,0.0478,0.0404,0.0563
+Malaysia,2027,simulated,0.0602,0.0434,0.0841
+Malaysia,2028,simulated,0.0769,0.0484,0.1225
+Malaysia,2029,simulated,0.0967,0.0525,0.1792
+Malaysia,2030,simulated,0.1236,0.0567,0.2598
+Malaysia,2031,simulated,0.1557,0.0627,0.3723
+Malaysia,2032,simulated,0.1941,0.0686,0.5487
+Malaysia,2033,simulated,0.2475,0.0733,0.7931
+Malaysia,2034,simulated,0.3221,0.0776,1.1722
+Malaysia,2035,simulated,0.3962,0.0836,1.7644
+Malaysia,2036,simulated,0.5035,0.0917,2.6821
+Malaysia,2037,simulated,0.6308,0.099,4.0013
+Malaysia,2038,simulated,0.8119,0.1034,6.1545
+Malaysia,2039,simulated,1.026,0.1118,8.9362
+Malaysia,2040,simulated,1.2906,0.1159,13.5608
+Malaysia,2041,simulated,1.6479,0.12,19.8202
+Malaysia,2042,simulated,2.006,0.1272,30.8787
+Malaysia,2043,simulated,2.5357,0.1286,49.0896
+Malaysia,2044,simulated,3.3205,0.1278,79.261
+Malaysia,2045,simulated,4.2509,0.1326,124.8128
+Malaysia,2046,simulated,5.1853,0.1272,193.1646
+Malaysia,2047,simulated,6.5792,0.1413,305.1743
+Malaysia,2048,simulated,8.2465,0.1443,460.6607
+Malaysia,2049,simulated,10.9672,0.1437,759.7102
+Malaysia,2050,simulated,13.4882,0.1426,1193.2438
+Mexico,2019,observed,0.4229,,
+Mexico,2020,observed,0.8287,,
+Mexico,2021,observed,1.0748,,
+Mexico,2022,observed,0.7164,,
+Mexico,2023,observed,0.6033,,
+Mexico,2024,observed,0.6847,,
+Mexico,2025,observed,0.7661,,
+Mexico,2026,observed,0.7371,,
+Mexico,2026,simulated,0.5195,0.3693,0.7435
+Mexico,2027,simulated,0.4744,0.2166,1.0825
+Mexico,2028,simulated,0.434,0.0894,2.0598
+Mexico,2029,simulated,0.4099,0.0479,3.8228
+Mexico,2030,simulated,0.4376,0.0249,6.9436
+Mexico,2031,simulated,0.4295,0.0148,11.2982
+Mexico,2032,simulated,0.4319,0.0079,19.6223
+Mexico,2033,simulated,0.4648,0.0052,39.1491
+Mexico,2034,simulated,0.4269,0.0029,68.7233
+Mexico,2035,simulated,0.4281,0.0016,122.1044
+Mexico,2036,simulated,0.401,0.0011,189.7761
+Mexico,2037,simulated,0.4145,0.0007,352.1889
+Mexico,2038,simulated,0.3514,0.0004,700.9624
+Mexico,2039,simulated,0.3546,0.0003,987.4134
+Mexico,2040,simulated,0.3371,0.0001,1809.8738
+Mexico,2041,simulated,0.3565,0.0001,2640.9802
+Mexico,2042,simulated,0.3607,0.0001,4140.2393
+Mexico,2043,simulated,0.3215,0.0,7074.4782
+Mexico,2044,simulated,0.3039,0.0,12270.2883
+Mexico,2045,simulated,0.2986,0.0,19741.5552
+Mexico,2046,simulated,0.288,0.0,33289.5017
+Mexico,2047,simulated,0.3032,0.0,52868.0575
+Mexico,2048,simulated,0.2919,0.0,98755.6305
+Mexico,2049,simulated,0.3162,0.0,183070.5378
+Mexico,2050,simulated,0.2889,0.0,307786.2139
+Morocco,2016,observed,0.0204,,
+Morocco,2017,observed,0.0232,,
+Morocco,2018,observed,0.0448,,
+Morocco,2019,observed,0.0609,,
+Morocco,2020,observed,0.058,,
+Morocco,2021,observed,0.0697,,
+Morocco,2022,observed,0.0518,,
+Morocco,2023,observed,0.0829,,
+Morocco,2024,observed,0.0663,,
+Morocco,2025,observed,0.0691,,
+Morocco,2026,observed,0.0846,,
+Morocco,2026,simulated,0.0868,0.0641,0.1168
+Morocco,2027,simulated,0.0861,0.0566,0.1332
+Morocco,2028,simulated,0.0949,0.0555,0.165
+Morocco,2029,simulated,0.0994,0.0518,0.1947
+Morocco,2030,simulated,0.107,0.0513,0.2387
+Morocco,2031,simulated,0.113,0.0492,0.2813
+Morocco,2032,simulated,0.1195,0.0483,0.3355
+Morocco,2033,simulated,0.1298,0.0464,0.4009
+Morocco,2034,simulated,0.1347,0.045,0.4973
+Morocco,2035,simulated,0.1441,0.0442,0.579
+Morocco,2036,simulated,0.1524,0.0409,0.7133
+Morocco,2037,simulated,0.1628,0.04,0.8473
+Morocco,2038,simulated,0.1755,0.0388,1.0362
+Morocco,2039,simulated,0.1889,0.0361,1.2314
+Morocco,2040,simulated,0.2001,0.0351,1.4492
+Morocco,2041,simulated,0.2057,0.0341,1.7383
+Morocco,2042,simulated,0.2237,0.0324,2.1747
+Morocco,2043,simulated,0.2453,0.03,2.6509
+Morocco,2044,simulated,0.2594,0.0299,3.2396
+Morocco,2045,simulated,0.2714,0.0283,3.7577
+Morocco,2046,simulated,0.2894,0.0273,4.7422
+Morocco,2047,simulated,0.314,0.0253,5.5734
+Morocco,2048,simulated,0.3315,0.0248,6.8359
+Morocco,2049,simulated,0.3504,0.0231,8.1139
+Morocco,2050,simulated,0.3782,0.0222,9.7731
+Netherlands,2015,observed,0.0235,,
+Netherlands,2016,observed,0.0361,,
+Netherlands,2017,observed,0.0575,,
+Netherlands,2018,observed,0.0951,,
+Netherlands,2019,observed,0.2367,,
+Netherlands,2020,observed,0.6941,,
+Netherlands,2021,observed,0.7951,,
+Netherlands,2022,observed,1.0975,,
+Netherlands,2023,observed,3.3377,,
+Netherlands,2024,observed,4.211,,
+Netherlands,2025,observed,3.8035,,
+Netherlands,2026,observed,2.5653,,
+Netherlands,2026,simulated,0.4931,0.2288,1.0422
+Netherlands,2027,simulated,2.2202,0.876,5.484
+Netherlands,2028,simulated,2.5372,0.6335,9.8952
+Netherlands,2029,simulated,2.9831,0.4718,18.0406
+Netherlands,2030,simulated,3.3043,0.3501,30.9502
+Netherlands,2031,simulated,4.064,0.2449,54.3343
+Netherlands,2032,simulated,4.5607,0.1796,111.0898
+Netherlands,2033,simulated,4.8429,0.1141,223.6804
+Netherlands,2034,simulated,5.3607,0.0768,424.6771
+Netherlands,2035,simulated,6.0497,0.0505,918.9822
+Netherlands,2036,simulated,6.8448,0.0326,2123.4507
+Netherlands,2037,simulated,7.9066,0.0192,4277.1016
+Netherlands,2038,simulated,8.6946,0.0124,9087.2228
+Netherlands,2039,simulated,10.0958,0.0075,20956.7487
+Netherlands,2040,simulated,10.5996,0.0043,44642.3664
+Netherlands,2041,simulated,11.238,0.002,99381.13
+Netherlands,2042,simulated,13.6191,0.0011,213325.2783
+Netherlands,2043,simulated,17.3823,0.0006,562567.9793
+Netherlands,2044,simulated,21.8658,0.0003,1406876.5999
+Netherlands,2045,simulated,25.2772,0.0001,3237769.0371
+Netherlands,2046,simulated,29.0353,0.0001,8399653.4876
+Netherlands,2047,simulated,29.9374,0.0,20237853.1536
+Netherlands,2048,simulated,34.3006,0.0,47296627.8237
+Netherlands,2049,simulated,37.8051,0.0,154887552.9569
+Netherlands,2050,simulated,46.7315,0.0,476741884.1778
+North Macedonia,2017,observed,0.007,,
+North Macedonia,2018,observed,0.0085,,
+North Macedonia,2019,observed,0.0066,,
+North Macedonia,2020,observed,0.0095,,
+North Macedonia,2021,observed,0.0116,,
+North Macedonia,2022,observed,0.011,,
+North Macedonia,2023,observed,0.1078,,
+North Macedonia,2024,observed,0.1178,,
+North Macedonia,2025,observed,0.6269,,
+North Macedonia,2026,observed,0.8507,,
+North Macedonia,2026,simulated,0.7414,0.4104,1.3564
+North Macedonia,2027,simulated,2.2706,0.6537,7.9753
+North Macedonia,2028,simulated,4.0215,0.4312,35.1947
+North Macedonia,2029,simulated,9.1519,0.2733,300.6098
+North Macedonia,2030,simulated,16.8417,0.1264,2337.9994
+North Macedonia,2031,simulated,39.5098,0.0702,20580.7675
+North Macedonia,2032,simulated,64.3545,0.027,214927.0393
+North Macedonia,2033,simulated,135.683,0.0078,3177650.9809
+North Macedonia,2034,simulated,274.4395,0.0028,49211027.4668
+North Macedonia,2035,simulated,570.5179,0.0007,701905087.4646
+North Macedonia,2036,simulated,1180.2732,0.0002,11037638632.6291
+North Macedonia,2037,simulated,2839.7612,0.0,311896183702.227
+North Macedonia,2038,simulated,5284.8485,0.0,7317918490033.326
+North Macedonia,2039,simulated,10994.7682,0.0,175587624675047.2
+North Macedonia,2040,simulated,17314.8792,0.0,3548327332434023.0
+North Macedonia,2041,simulated,27488.109,0.0,1.2317893860243582e+17
+North Macedonia,2042,simulated,56678.8053,0.0,5.718500810490236e+18
+North Macedonia,2043,simulated,71523.7661,0.0,1.8029736799366732e+20
+North Macedonia,2044,simulated,144557.0868,0.0,9.371332351922773e+21
+North Macedonia,2045,simulated,363967.849,0.0,3.8416262169789905e+23
+North Macedonia,2046,simulated,741697.9188,0.0,1.5250500674426178e+25
+North Macedonia,2047,simulated,1778705.4287,0.0,6.297596323626697e+26
+North Macedonia,2048,simulated,3229494.1209,0.0,2.699579759520796e+28
+North Macedonia,2049,simulated,6801992.1724,0.0,2.404941995496228e+30
+North Macedonia,2050,simulated,11428044.0873,0.0,1.4311688819369932e+32
+Pakistan,2018,observed,0.1246,,
+Pakistan,2019,observed,0.1281,,
+Pakistan,2020,observed,0.1617,,
+Pakistan,2021,observed,0.2176,,
+Pakistan,2022,observed,0.3356,,
+Pakistan,2023,observed,0.5124,,
+Pakistan,2024,observed,1.0101,,
+Pakistan,2025,observed,1.4974,,
+Pakistan,2026,observed,1.4972,,
+Pakistan,2026,simulated,1.4401,0.7969,2.6476
+Pakistan,2027,simulated,2.2336,0.6665,7.2209
+Pakistan,2028,simulated,3.1654,0.5282,16.9866
+Pakistan,2029,simulated,4.5626,0.3967,48.0217
+Pakistan,2030,simulated,6.8915,0.286,121.8702
+Pakistan,2031,simulated,9.4395,0.2306,318.1685
+Pakistan,2032,simulated,13.2888,0.1596,838.0517
+Pakistan,2033,simulated,18.5435,0.1132,2346.3415
+Pakistan,2034,simulated,27.1104,0.0666,8391.9172
+Pakistan,2035,simulated,41.6348,0.0414,23404.0894
+Pakistan,2036,simulated,55.6337,0.0262,86605.2986
+Pakistan,2037,simulated,72.5513,0.0139,309761.8666
+Pakistan,2038,simulated,91.2501,0.0094,1065324.0543
+Pakistan,2039,simulated,126.5757,0.0052,3429390.3419
+Pakistan,2040,simulated,172.0465,0.0033,11067610.9562
+Pakistan,2041,simulated,252.2591,0.0022,34738310.311
+Pakistan,2042,simulated,363.6991,0.0013,139349205.2047
+Pakistan,2043,simulated,482.2211,0.0006,568171853.2907
+Pakistan,2044,simulated,743.4544,0.0003,1936144620.8648
+Pakistan,2045,simulated,1082.7441,0.0002,8838748337.3257
+Pakistan,2046,simulated,1809.1662,0.0001,39329351895.4907
+Pakistan,2047,simulated,2637.2636,0.0,150050109159.6914
+Pakistan,2048,simulated,3680.8762,0.0,472814069326.9774
+Pakistan,2049,simulated,5502.6296,0.0,2914242650357.6523
+Pakistan,2050,simulated,7033.1969,0.0,13297661113039.72
+Poland,2015,observed,0.0004,,
+Poland,2016,observed,0.0008,,
+Poland,2017,observed,0.0011,,
+Poland,2018,observed,0.0018,,
+Poland,2019,observed,0.0049,,
+Poland,2020,observed,0.0166,,
+Poland,2021,observed,0.0294,,
+Poland,2022,observed,0.0606,,
+Poland,2023,observed,0.1052,,
+Poland,2024,observed,0.1518,,
+Poland,2025,observed,0.1947,,
+Poland,2026,observed,0.2779,,
+Poland,2026,simulated,0.0974,0.0758,0.1247
+Poland,2027,simulated,0.2947,0.202,0.4284
+Poland,2028,simulated,0.4198,0.2156,0.7973
+Poland,2029,simulated,0.6027,0.2399,1.5107
+Poland,2030,simulated,0.8525,0.2576,2.8746
+Poland,2031,simulated,1.2614,0.2795,5.343
+Poland,2032,simulated,1.8156,0.2944,10.952
+Poland,2033,simulated,2.4429,0.3026,21.4525
+Poland,2034,simulated,3.4735,0.306,40.9934
+Poland,2035,simulated,4.8052,0.3051,89.7473
+Poland,2036,simulated,6.9254,0.3146,186.6349
+Poland,2037,simulated,9.979,0.2915,380.6922
+Poland,2038,simulated,13.5544,0.2895,829.7257
+Poland,2039,simulated,19.7855,0.2857,1851.9708
+Poland,2040,simulated,27.1309,0.264,4202.8593
+Poland,2041,simulated,38.8245,0.2321,9302.8744
+Poland,2042,simulated,55.3943,0.2092,19416.6215
+Poland,2043,simulated,81.3524,0.1838,45662.507
+Poland,2044,simulated,124.9244,0.1494,102405.7452
+Poland,2045,simulated,182.253,0.1274,243977.7366
+Poland,2046,simulated,264.4394,0.1229,570516.7798
+Poland,2047,simulated,380.7797,0.1135,1385286.7206
+Poland,2048,simulated,528.6707,0.0836,3224734.4807
+Poland,2049,simulated,762.9955,0.0694,8297182.0492
+Poland,2050,simulated,1099.4831,0.0667,20336574.4799
+Puerto Rico,2019,observed,0.0781,,
+Puerto Rico,2020,observed,0.0967,,
+Puerto Rico,2021,observed,0.095,,
+Puerto Rico,2022,observed,0.0964,,
+Puerto Rico,2023,observed,0.1012,,
+Puerto Rico,2024,observed,0.0876,,
+Puerto Rico,2025,observed,0.0667,,
+Puerto Rico,2026,observed,0.0675,,
+Puerto Rico,2026,simulated,0.0589,0.0466,0.0755
+Puerto Rico,2027,simulated,0.0596,0.0447,0.0781
+Puerto Rico,2028,simulated,0.0561,0.0374,0.0828
+Puerto Rico,2029,simulated,0.0527,0.0307,0.0881
+Puerto Rico,2030,simulated,0.0493,0.025,0.0938
+Puerto Rico,2031,simulated,0.0463,0.0205,0.1024
+Puerto Rico,2032,simulated,0.0435,0.0165,0.1072
+Puerto Rico,2033,simulated,0.0404,0.0138,0.1148
+Puerto Rico,2034,simulated,0.0378,0.0113,0.1252
+Puerto Rico,2035,simulated,0.0358,0.0089,0.1381
+Puerto Rico,2036,simulated,0.0341,0.0072,0.1529
+Puerto Rico,2037,simulated,0.0322,0.0058,0.1651
+Puerto Rico,2038,simulated,0.0299,0.0046,0.1792
+Puerto Rico,2039,simulated,0.0279,0.0035,0.2026
+Puerto Rico,2040,simulated,0.0267,0.0028,0.2191
+Puerto Rico,2041,simulated,0.0256,0.0022,0.2569
+Puerto Rico,2042,simulated,0.0234,0.0017,0.2904
+Puerto Rico,2043,simulated,0.0216,0.0013,0.3265
+Puerto Rico,2044,simulated,0.0203,0.001,0.3665
+Puerto Rico,2045,simulated,0.0192,0.0007,0.4353
+Puerto Rico,2046,simulated,0.0181,0.0006,0.4935
+Puerto Rico,2047,simulated,0.0171,0.0004,0.5781
+Puerto Rico,2048,simulated,0.0159,0.0003,0.6425
+Puerto Rico,2049,simulated,0.0147,0.0002,0.7735
+Puerto Rico,2050,simulated,0.0139,0.0002,0.8437
+Romania,2015,observed,0.0621,,
+Romania,2016,observed,0.0712,,
+Romania,2017,observed,0.0706,,
+Romania,2018,observed,0.0749,,
+Romania,2019,observed,0.0884,,
+Romania,2020,observed,0.1276,,
+Romania,2021,observed,0.1044,,
+Romania,2022,observed,0.1282,,
+Romania,2023,observed,0.2263,,
+Romania,2024,observed,0.4999,,
+Romania,2025,observed,0.7397,,
+Romania,2026,observed,1.4163,,
+Romania,2026,simulated,0.8892,0.6754,1.1492
+Romania,2027,simulated,2.1606,1.3943,3.2686
+Romania,2028,simulated,3.1411,1.5733,6.334
+Romania,2029,simulated,4.6056,1.7947,12.0664
+Romania,2030,simulated,6.8279,2.0365,22.7363
+Romania,2031,simulated,10.0839,2.3708,42.7768
+Romania,2032,simulated,14.7571,2.8144,80.211
+Romania,2033,simulated,21.2996,3.1224,150.652
+Romania,2034,simulated,31.0105,3.6047,281.8538
+Romania,2035,simulated,45.6896,3.9285,592.3475
+Romania,2036,simulated,67.2744,4.493,1158.9124
+Romania,2037,simulated,97.0568,4.9642,2351.7559
+Romania,2038,simulated,136.8746,5.4137,4608.7687
+Romania,2039,simulated,200.7937,6.1133,9213.6206
+Romania,2040,simulated,297.4373,6.4632,18287.4397
+Romania,2041,simulated,437.8076,6.8481,35811.6602
+Romania,2042,simulated,664.0675,7.6813,68765.0204
+Romania,2043,simulated,988.6639,7.4508,147134.8308
+Romania,2044,simulated,1376.033,7.6747,298556.2202
+Romania,2045,simulated,2074.382,7.509,654996.914
+Romania,2046,simulated,3180.8507,8.6918,1363633.0071
+Romania,2047,simulated,4526.5269,8.908,3149789.3227
+Romania,2048,simulated,6414.0441,8.6333,7055550.2124
+Romania,2049,simulated,10151.5313,9.722,14396663.3968
+Romania,2050,simulated,15625.1382,9.0249,29570342.6998
+Russia,2019,observed,0.0062,,
+Russia,2020,observed,0.0105,,
+Russia,2021,observed,0.011,,
+Russia,2022,observed,0.0105,,
+Russia,2023,observed,0.0082,,
+Russia,2024,observed,0.0094,,
+Russia,2025,observed,0.0089,,
+Russia,2026,observed,0.0115,,
+Russia,2026,simulated,0.0095,0.0077,0.0119
+Russia,2027,simulated,0.0138,0.0087,0.0229
+Russia,2028,simulated,0.0182,0.0062,0.0557
+Russia,2029,simulated,0.0245,0.0037,0.1511
+Russia,2030,simulated,0.0301,0.0022,0.4784
+Russia,2031,simulated,0.0388,0.0011,1.7844
+Russia,2032,simulated,0.0523,0.0005,7.3851
+Russia,2033,simulated,0.0701,0.0002,34.4724
+Russia,2034,simulated,0.0986,0.0001,163.0117
+Russia,2035,simulated,0.1313,0.0,734.6309
+Russia,2036,simulated,0.1734,0.0,4145.2775
+Russia,2037,simulated,0.205,0.0,23651.0087
+Russia,2038,simulated,0.2304,0.0,141789.9666
+Russia,2039,simulated,0.3266,0.0,770692.8092
+Russia,2040,simulated,0.4786,0.0,5442829.5379
+Russia,2041,simulated,0.7128,0.0,30892212.5398
+Russia,2042,simulated,0.7969,0.0,330713242.1518
+Russia,2043,simulated,0.9838,0.0,2219054063.1738
+Russia,2044,simulated,1.1934,0.0,20215545253.408
+Russia,2045,simulated,1.2774,0.0,185795921562.9298
+Russia,2046,simulated,1.4612,0.0,1856414070956.2715
+Russia,2047,simulated,1.4125,0.0,19834298026933.23
+Russia,2048,simulated,2.1089,0.0,121819847537762.66
+Russia,2049,simulated,3.2008,0.0,1859997732303399.8
+Russia,2050,simulated,4.4681,0.0,1.454359873973357e+16
+Slovenia,2016,observed,0.0578,,
+Slovenia,2017,observed,0.0572,,
+Slovenia,2018,observed,0.0543,,
+Slovenia,2019,observed,0.0599,,
+Slovenia,2020,observed,0.0699,,
+Slovenia,2021,observed,0.0834,,
+Slovenia,2022,observed,0.1378,,
+Slovenia,2023,observed,0.1881,,
+Slovenia,2024,observed,0.3177,,
+Slovenia,2025,observed,1.6108,,
+Slovenia,2026,observed,0.4646,,
+Slovenia,2026,simulated,5.8102,0.9093,40.7204
+Slovenia,2027,simulated,6.8305,0.0819,544.3136
+Slovenia,2028,simulated,15.9006,0.0072,25859.2489
+Slovenia,2029,simulated,49.9384,0.0003,2706131.4411
+Slovenia,2030,simulated,147.3205,0.0,293575666.9726
+Slovenia,2031,simulated,314.3961,0.0,128439274281.7169
+Slovenia,2032,simulated,1141.008,0.0,25222729472189.074
+Slovenia,2033,simulated,3404.6107,0.0,1.0868587210998276e+16
+Slovenia,2034,simulated,7923.4369,0.0,6.056972689443734e+18
+Slovenia,2035,simulated,13525.8997,0.0,8.360064627005661e+21
+Slovenia,2036,simulated,22417.5989,0.0,7.196803414837324e+24
+Slovenia,2037,simulated,76137.2357,0.0,8.887196176240408e+27
+Slovenia,2038,simulated,319869.5412,0.0,1.789060030771984e+31
+Slovenia,2039,simulated,824291.3605,0.0,4.745526850920499e+34
+Slovenia,2040,simulated,2910081.1472,0.0,2.3471664905432324e+38
+Slovenia,2041,simulated,8887519.8192,0.0,1.5009361055581746e+42
+Slovenia,2042,simulated,12432813.6736,0.0,5.748508093791242e+45
+Slovenia,2043,simulated,34181412.096,0.0,2.2360920920566543e+49
+Slovenia,2044,simulated,120162266.8358,0.0,3.859772678778296e+53
+Slovenia,2045,simulated,481410657.3057,0.0,7.722714226903533e+57
+Slovenia,2046,simulated,1692029678.3334,0.0,1.0075237454631766e+62
+Slovenia,2047,simulated,4228534273.519,0.0,1.6518384703581486e+66
+Slovenia,2048,simulated,9270651574.7412,0.0,8.868069892858217e+69
+Slovenia,2049,simulated,9326820852.3004,0.0,2.1555938729300043e+73
+Slovenia,2050,simulated,137143005422.128,0.0,2.979412072170078e+77
+South Africa,2018,observed,0.0182,,
+South Africa,2019,observed,0.0214,,
+South Africa,2020,observed,0.0266,,
+South Africa,2021,observed,0.0321,,
+South Africa,2022,observed,0.0471,,
+South Africa,2023,observed,0.0743,,
+South Africa,2024,observed,0.0877,,
+South Africa,2025,observed,0.0984,,
+South Africa,2026,observed,0.0968,,
+South Africa,2026,simulated,0.1373,0.1183,0.1593
+South Africa,2027,simulated,0.1155,0.0925,0.148
+South Africa,2028,simulated,0.1231,0.0772,0.2056
+South Africa,2029,simulated,0.132,0.0608,0.2928
+South Africa,2030,simulated,0.141,0.0456,0.4417
+South Africa,2031,simulated,0.1489,0.0338,0.6958
+South Africa,2032,simulated,0.162,0.0235,1.1807
+South Africa,2033,simulated,0.1743,0.0167,1.9917
+South Africa,2034,simulated,0.1822,0.011,3.6372
+South Africa,2035,simulated,0.1943,0.0073,6.1105
+South Africa,2036,simulated,0.2091,0.0045,10.6055
+South Africa,2037,simulated,0.2345,0.0027,19.1159
+South Africa,2038,simulated,0.2575,0.0016,39.5797
+South Africa,2039,simulated,0.2652,0.001,85.397
+South Africa,2040,simulated,0.2781,0.0006,167.0429
+South Africa,2041,simulated,0.3073,0.0003,347.3208
+South Africa,2042,simulated,0.3376,0.0002,755.8953
+South Africa,2043,simulated,0.342,0.0001,1633.9907
+South Africa,2044,simulated,0.3441,0.0001,3407.435
+South Africa,2045,simulated,0.3465,0.0,7653.4797
+South Africa,2046,simulated,0.3892,0.0,17668.2821
+South Africa,2047,simulated,0.473,0.0,39799.575
+South Africa,2048,simulated,0.5084,0.0,99335.2991
+South Africa,2049,simulated,0.5843,0.0,225550.6107
+South Africa,2050,simulated,0.6369,0.0,418010.8847
+South Korea,2019,observed,0.0515,,
+South Korea,2020,observed,0.0821,,
+South Korea,2021,observed,0.1097,,
+South Korea,2022,observed,0.1377,,
+South Korea,2023,observed,0.1566,,
+South Korea,2024,observed,0.1933,,
+South Korea,2025,observed,0.2256,,
+South Korea,2026,observed,0.2539,,
+South Korea,2026,simulated,0.206,0.1723,0.243
+South Korea,2027,simulated,0.2822,0.2301,0.3465
+South Korea,2028,simulated,0.3363,0.2488,0.4534
+South Korea,2029,simulated,0.3985,0.2676,0.5897
+South Korea,2030,simulated,0.4771,0.2873,0.7612
+South Korea,2031,simulated,0.5699,0.3128,0.9897
+South Korea,2032,simulated,0.6801,0.3323,1.2934
+South Korea,2033,simulated,0.8181,0.3635,1.6993
+South Korea,2034,simulated,0.9781,0.3885,2.2728
+South Korea,2035,simulated,1.137,0.4097,2.9855
+South Korea,2036,simulated,1.363,0.428,3.9256
+South Korea,2037,simulated,1.6495,0.4646,5.1433
+South Korea,2038,simulated,1.9539,0.4889,6.8917
+South Korea,2039,simulated,2.3175,0.5114,9.2336
+South Korea,2040,simulated,2.7293,0.5222,12.4941
+South Korea,2041,simulated,3.2415,0.5506,16.6471
+South Korea,2042,simulated,3.8036,0.5671,21.9323
+South Korea,2043,simulated,4.5753,0.5988,29.8163
+South Korea,2044,simulated,5.4395,0.606,43.1085
+South Korea,2045,simulated,6.3116,0.6256,56.7918
+South Korea,2046,simulated,7.5616,0.6518,79.5409
+South Korea,2047,simulated,9.07,0.6608,112.6906
+South Korea,2048,simulated,10.9691,0.7101,153.5243
+South Korea,2049,simulated,12.9138,0.7134,206.8599
+South Korea,2050,simulated,15.068,0.7297,283.8592
+Taiwan (China),2008,observed,0.0001,,
+Taiwan (China),2009,observed,0.0001,,
+Taiwan (China),2010,observed,0.0002,,
+Taiwan (China),2011,observed,0.0005,,
+Taiwan (China),2012,observed,0.0013,,
+Taiwan (China),2013,observed,0.0025,,
+Taiwan (China),2014,observed,0.0041,,
+Taiwan (China),2015,observed,0.007,,
+Taiwan (China),2016,observed,0.0088,,
+Taiwan (China),2017,observed,0.0128,,
+Taiwan (China),2018,observed,0.0195,,
+Taiwan (China),2019,observed,0.031,,
+Taiwan (China),2020,observed,0.0492,,
+Taiwan (China),2021,observed,0.0648,,
+Taiwan (China),2022,observed,0.089,,
+Taiwan (China),2023,observed,0.1123,,
+Taiwan (China),2024,observed,0.1362,,
+Taiwan (China),2025,observed,0.1634,,
+Taiwan (China),2026,observed,0.1836,,
+Taiwan (China),2026,simulated,0.1968,0.1606,0.2392
+Taiwan (China),2027,simulated,0.2448,0.1757,0.3441
+Taiwan (China),2028,simulated,0.339,0.2003,0.5815
+Taiwan (China),2029,simulated,0.4633,0.2261,0.947
+Taiwan (China),2030,simulated,0.6395,0.2542,1.5266
+Taiwan (China),2031,simulated,0.9054,0.3009,2.4049
+Taiwan (China),2032,simulated,1.2544,0.3563,3.9
+Taiwan (China),2033,simulated,1.7544,0.4176,6.688
+Taiwan (China),2034,simulated,2.3538,0.4921,10.73
+Taiwan (China),2035,simulated,3.1958,0.5437,17.7257
+Taiwan (China),2036,simulated,4.5033,0.6182,28.6307
+Taiwan (China),2037,simulated,6.2356,0.6991,45.1365
+Taiwan (China),2038,simulated,8.4916,0.7783,76.2006
+Taiwan (China),2039,simulated,11.7902,0.8854,125.1849
+Taiwan (China),2040,simulated,15.8939,0.9558,219.7549
+Taiwan (China),2041,simulated,21.3617,1.0785,370.5073
+Taiwan (China),2042,simulated,27.9513,1.1839,603.3806
+Taiwan (China),2043,simulated,39.5325,1.3843,1057.1388
+Taiwan (China),2044,simulated,54.4197,1.4743,1882.5925
+Taiwan (China),2045,simulated,74.7453,1.6717,3034.5932
+Taiwan (China),2046,simulated,103.8133,1.7722,5175.8443
+Taiwan (China),2047,simulated,144.5219,1.9822,9374.3033
+Taiwan (China),2048,simulated,195.8091,2.0679,16131.8795
+Taiwan (China),2049,simulated,276.3289,2.2572,26016.3435
+Taiwan (China),2050,simulated,388.303,2.4747,49009.6994
+Thailand,2019,observed,0.1459,,
+Thailand,2020,observed,0.1331,,
+Thailand,2021,observed,0.1129,,
+Thailand,2022,observed,0.1416,,
+Thailand,2023,observed,0.1644,,
+Thailand,2024,observed,0.1633,,
+Thailand,2025,observed,0.2997,,
+Thailand,2026,observed,0.5917,,
+Thailand,2026,simulated,0.5532,0.4025,0.7501
+Thailand,2027,simulated,0.8188,0.4411,1.4988
+Thailand,2028,simulated,1.1274,0.391,3.0978
+Thailand,2029,simulated,1.5511,0.3649,6.1809
+Thailand,2030,simulated,2.0514,0.3578,11.5872
+Thailand,2031,simulated,2.8255,0.3275,23.7101
+Thailand,2032,simulated,3.7106,0.2933,45.5782
+Thailand,2033,simulated,5.1406,0.2728,89.1708
+Thailand,2034,simulated,6.8859,0.2614,175.2935
+Thailand,2035,simulated,9.164,0.2496,321.7753
+Thailand,2036,simulated,12.1831,0.2465,610.8722
+Thailand,2037,simulated,15.8971,0.2595,1217.6865
+Thailand,2038,simulated,20.2645,0.2833,2188.8481
+Thailand,2039,simulated,27.7182,0.2589,4122.3751
+Thailand,2040,simulated,36.1896,0.2489,8393.471
+Thailand,2041,simulated,48.6088,0.2412,16120.7921
+Thailand,2042,simulated,62.4353,0.2375,30248.0565
+Thailand,2043,simulated,89.0556,0.2408,57397.9762
+Thailand,2044,simulated,112.6693,0.2574,106585.4645
+Thailand,2045,simulated,149.3186,0.2728,218229.1569
+Thailand,2046,simulated,199.763,0.2634,395213.9438
+Thailand,2047,simulated,259.5864,0.2588,704751.4448
+Thailand,2048,simulated,358.0307,0.2536,1373221.7616
+Thailand,2049,simulated,471.7652,0.2674,2162540.2954
+Thailand,2050,simulated,663.8923,0.2351,4262444.6443
+The Philippines,2017,observed,0.028,,
+The Philippines,2018,observed,0.0256,,
+The Philippines,2019,observed,0.0231,,
+The Philippines,2020,observed,0.0246,,
+The Philippines,2021,observed,0.0246,,
+The Philippines,2022,observed,0.0281,,
+The Philippines,2023,observed,0.0351,,
+The Philippines,2024,observed,0.0482,,
+The Philippines,2025,observed,0.0663,,
+The Philippines,2026,observed,0.0922,,
+The Philippines,2026,simulated,0.1049,0.0912,0.1198
+The Philippines,2027,simulated,0.1509,0.1237,0.1851
+The Philippines,2028,simulated,0.2398,0.1547,0.375
+The Philippines,2029,simulated,0.3783,0.1797,0.7936
+The Philippines,2030,simulated,0.6004,0.2048,1.7244
+The Philippines,2031,simulated,0.9531,0.2161,3.899
+The Philippines,2032,simulated,1.5556,0.2236,9.184
+The Philippines,2033,simulated,2.5035,0.2413,21.6634
+The Philippines,2034,simulated,3.8206,0.2354,54.8806
+The Philippines,2035,simulated,5.8924,0.2197,150.386
+The Philippines,2036,simulated,9.3173,0.2137,377.8075
+The Philippines,2037,simulated,15.2555,0.197,1064.3489
+The Philippines,2038,simulated,22.8703,0.1799,2956.1429
+The Philippines,2039,simulated,38.0188,0.1537,8060.3229
+The Philippines,2040,simulated,62.1368,0.1313,23089.2536
+The Philippines,2041,simulated,100.3912,0.1176,63783.3573
+The Philippines,2042,simulated,160.7652,0.1135,192801.141
+The Philippines,2043,simulated,226.4014,0.0929,592345.9858
+The Philippines,2044,simulated,353.6899,0.0709,1676502.3223
+The Philippines,2045,simulated,565.2339,0.0567,5886611.3064
+The Philippines,2046,simulated,858.0854,0.0445,17134205.5616
+The Philippines,2047,simulated,1426.1257,0.0366,62578178.4492
+The Philippines,2048,simulated,2132.01,0.0274,213176944.3142
+The Philippines,2049,simulated,3420.9968,0.0207,706827798.4374
+The Philippines,2050,simulated,5569.5006,0.0159,2507913804.4937
+Türkiye,2018,observed,0.0643,,
+Türkiye,2019,observed,0.0806,,
+Türkiye,2020,observed,0.1022,,
+Türkiye,2021,observed,0.1218,,
+Türkiye,2022,observed,0.1261,,
+Türkiye,2023,observed,0.1498,,
+Türkiye,2024,observed,0.1967,,
+Türkiye,2025,observed,0.2911,,
+Türkiye,2026,observed,0.4229,,
+Türkiye,2026,simulated,0.2663,0.2313,0.3049
+Türkiye,2027,simulated,0.4792,0.4061,0.5611
+Türkiye,2028,simulated,0.6131,0.4749,0.7824
+Türkiye,2029,simulated,0.7865,0.563,1.0977
+Türkiye,2030,simulated,1.0025,0.6567,1.5498
+Türkiye,2031,simulated,1.3002,0.7713,2.1635
+Türkiye,2032,simulated,1.6522,0.9008,3.0337
+Türkiye,2033,simulated,2.0952,1.0322,4.3704
+Türkiye,2034,simulated,2.6772,1.1937,6.2392
+Türkiye,2035,simulated,3.3584,1.3594,9.1029
+Türkiye,2036,simulated,4.3596,1.5652,13.1942
+Türkiye,2037,simulated,5.5868,1.7056,19.0076
+Türkiye,2038,simulated,7.0419,1.9291,27.6165
+Türkiye,2039,simulated,8.9829,2.2151,40.7997
+Türkiye,2040,simulated,11.374,2.4508,59.8734
+Türkiye,2041,simulated,14.7627,2.6869,88.2001
+Türkiye,2042,simulated,19.1262,2.9943,131.6724
+Türkiye,2043,simulated,24.5925,3.2715,197.3603
+Türkiye,2044,simulated,31.8485,3.5164,293.2503
+Türkiye,2045,simulated,41.1073,4.015,426.5069
+Türkiye,2046,simulated,52.5093,4.5542,651.6386
+Türkiye,2047,simulated,69.5321,4.8802,986.2099
+Türkiye,2048,simulated,89.2288,5.3489,1507.8769
+Türkiye,2049,simulated,113.2986,5.7695,2314.8914
+Türkiye,2050,simulated,143.8815,6.0506,3496.8008
+United States,2003,observed,0.0002,,
+United States,2004,observed,0.0002,,
+United States,2005,observed,0.0002,,
+United States,2006,observed,0.0002,,
+United States,2007,observed,0.0002,,
+United States,2008,observed,0.0004,,
+United States,2009,observed,0.0004,,
+United States,2010,observed,0.0005,,
+United States,2011,observed,0.001,,
+United States,2012,observed,0.0026,,
+United States,2013,observed,0.0055,,
+United States,2014,observed,0.0178,,
+United States,2015,observed,0.0285,,
+United States,2016,observed,0.044,,
+United States,2017,observed,0.0622,,
+United States,2018,observed,0.0793,,
+United States,2019,observed,0.1078,,
+United States,2020,observed,0.1683,,
+United States,2021,observed,0.1812,,
+United States,2022,observed,0.2419,,
+United States,2023,observed,0.3488,,
+United States,2024,observed,0.4617,,
+United States,2025,observed,0.5189,,
+United States,2026,observed,0.7065,,
+United States,2026,simulated,0.5525,0.4346,0.7048
+United States,2027,simulated,0.8642,0.6142,1.2335
+United States,2028,simulated,1.2006,0.6238,2.3088
+United States,2029,simulated,1.7066,0.6777,4.4944
+United States,2030,simulated,2.4946,0.7501,9.115
+United States,2031,simulated,3.7549,0.7827,18.4076
+United States,2032,simulated,5.6991,0.8651,37.9932
+United States,2033,simulated,8.3314,0.9354,77.5448
+United States,2034,simulated,12.4528,0.9957,166.9364
+United States,2035,simulated,18.9201,1.0878,348.8378
+United States,2036,simulated,28.4976,1.1656,715.7781
+United States,2037,simulated,40.8056,1.3224,1431.2831
+United States,2038,simulated,61.227,1.5379,2780.5535
+United States,2039,simulated,91.2806,1.664,6023.663
+United States,2040,simulated,133.7949,1.9463,12177.1288
+United States,2041,simulated,203.7972,2.4449,23486.7937
+United States,2042,simulated,300.4938,2.7379,51219.8094
+United States,2043,simulated,465.8287,2.997,95547.488
+United States,2044,simulated,718.5579,3.1318,226789.897
+United States,2045,simulated,1115.5762,3.6087,451012.1951
+United States,2046,simulated,1575.2981,4.0151,926038.4328
+United States,2047,simulated,2433.5023,4.3699,1834708.9638
+United States,2048,simulated,3666.2229,4.3964,4102756.0262
+United States,2049,simulated,5469.661,5.0322,8675173.2019
+United States,2050,simulated,8292.6497,6.2903,18280530.2684
+Viet Nam,2019,observed,0.0325,,
+Viet Nam,2020,observed,0.0799,,
+Viet Nam,2021,observed,0.2272,,
+Viet Nam,2022,observed,0.2677,,
+Viet Nam,2023,observed,0.1929,,
+Viet Nam,2024,observed,0.1783,,
+Viet Nam,2025,observed,0.197,,
+Viet Nam,2026,observed,0.179,,
+Viet Nam,2026,simulated,0.1936,0.1479,0.2509
+Viet Nam,2027,simulated,0.2022,0.1275,0.3243
+Viet Nam,2028,simulated,0.2252,0.0966,0.5165
+Viet Nam,2029,simulated,0.2516,0.0768,0.7957
+Viet Nam,2030,simulated,0.287,0.0629,1.2644
+Viet Nam,2031,simulated,0.3234,0.0506,2.0005
+Viet Nam,2032,simulated,0.3703,0.0419,3.1262
+Viet Nam,2033,simulated,0.3972,0.0352,5.2774
+Viet Nam,2034,simulated,0.4507,0.0281,7.9232
+Viet Nam,2035,simulated,0.5191,0.0241,13.0839
+Viet Nam,2036,simulated,0.5783,0.019,19.6956
+Viet Nam,2037,simulated,0.6598,0.017,29.5771
+Viet Nam,2038,simulated,0.7602,0.0154,47.1471
+Viet Nam,2039,simulated,0.8381,0.0122,72.5182
+Viet Nam,2040,simulated,0.9033,0.0102,108.6275
+Viet Nam,2041,simulated,0.9598,0.0082,176.7086
+Viet Nam,2042,simulated,1.0659,0.007,281.0715
+Viet Nam,2043,simulated,1.2379,0.006,445.0139
+Viet Nam,2044,simulated,1.3841,0.0047,657.9801
+Viet Nam,2045,simulated,1.546,0.0041,1002.0211
+Viet Nam,2046,simulated,1.7621,0.0037,1580.7917
+Viet Nam,2047,simulated,2.068,0.003,2560.2846
+Viet Nam,2048,simulated,2.2444,0.0026,4161.8754
+Viet Nam,2049,simulated,2.6531,0.0023,6304.5817
+Viet Nam,2050,simulated,3.0616,0.002,9733.6181
