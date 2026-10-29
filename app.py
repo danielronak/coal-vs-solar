@@ -64,12 +64,12 @@ def heading(title, caption=None):
         st.markdown(f'<div class="sc-cap">{html.escape(caption)}</div>', unsafe_allow_html=True)
 
 
-def show(fig, h=380, legend=True, hover="x unified"):
+def show(fig, h=380, legend=True, hover="x unified", top=None):
     for tr in fig.data:   # Plotly adds markers to short scatter traces unless a mode is set
         if tr.type == "scatter" and tr.mode is None:
             tr.mode = "lines"
     fig.update_layout(
-        height=h, margin=dict(l=8, r=8, t=36 if legend else 8, b=8), template="none",
+        height=h, margin=dict(l=8, r=8, t=top if top is not None else (36 if legend else 8), b=8), template="none",
         plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", hovermode=hover,
         font=dict(family=FONT, size=13, color=INK2), showlegend=legend,
         legend=dict(orientation="h", x=0, xanchor="left", y=1.0, yanchor="bottom", traceorder="normal",
@@ -296,7 +296,7 @@ with tab_lab:
                 for s_ in (bound, -bound):
                     fig.add_hline(y=s_, line=dict(color=MUTED, width=1, dash="dot"), row=1, col=i)
             fig.update_annotations(font=dict(size=13, color=INK2))
-            show(fig, 300, legend=False, hover="closest")
+            show(fig, 320, legend=False, hover="closest", top=40)   # room for the two panel titles
 
 # ------------------------------------------------------------------ crossover
 with tab_cross:
@@ -346,7 +346,7 @@ with tab_cross:
                                    hovertemplate="%{x}: %{y:.1%}<extra></extra>"))
             fig.update_yaxes(tickformat=".0%")
             fig.update_xaxes(dtick=2 if len(b) > 12 else 1)
-            show(fig, 300, legend=False, hover="closest")
+            show(fig, 320, legend=False, hover="closest", top=40)   # room for the two panel titles
 
 # ------------------------------------------------------------------ India target
 with tab_target:
